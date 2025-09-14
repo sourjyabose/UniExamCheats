@@ -10232,9 +10232,7 @@ alert("Ready\nVersion 3.0,1");
                         e.stopPropagation(),
                         e.preventDefault();
                         let x = "could not paste";
-                        console.log(this.copiedText);
                         if (!this.testData.c_modules.enable_copy_paste && this.copiedText) {
-                          console.log(this.copiedText);
                             const R = this.copiedText.replace(/\r\n/g, "\n")
                               , b = v.replace(/\r\n/g, "\n");
                             x = ["essay_email_writing", "descriptive_answer_writing_text"].includes(p.question_type) ? b === R ? this.copiedText : "could not paste" : "descriptive_answer_writing" === this.testData.current_q.question_type ? v === this.copiedText ? this.copiedText : "could not paste" : this.copiedText
@@ -11352,6 +11350,36 @@ alert("Ready\nVersion 3.0,1");
                 }
               )
             }
+            checkLiveStatus(e) {
+                return e.client_data = this.testData.client_data,
+                this.http.post(
+                  this.api_link + '/checkTestAllreadyTake',
+                  e,
+                  this.httpRequestOptions()
+                )
+              }
+              checktestSessionsSame(e) {
+                return e.client_data = this.testData.client_data,
+                this.http.post(
+                  this.api_link + '/checktestSessionsSame',
+                  e,
+                  this.httpRequestOptions()
+                )
+              }
+              checkProjectSessions(e) {
+                return this.http.post(
+                  this.api_link + '/checkProjectSessions',
+                  e,
+                  this.httpRequestOptions()
+                )
+              }
+              checkProjectSessionsMultiple(e) {
+                return this.http.post(
+                  this.api_link + '/checkProjectSessionsMultiple',
+                  e,
+                  this.httpRequestOptions()
+                )
+              }
             checkTestState() {
               let a = JSON.parse(
                 localStorage.getItem('itl-' + this.testData.c_id + this.testData.t_id)
