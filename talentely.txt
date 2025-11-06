@@ -1,4 +1,4 @@
-alert("raedy");
+alert("<--------Ready------->");
 (this["webpackJsonpfuse-react-app"] = this["webpackJsonpfuse-react-app"] || []).push([[11], {
     108: function(e, t, i) {
         "use strict";
@@ -84,22 +84,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
           , c = n.a.create({
             baseURL: l,
@@ -162,22 +162,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
           , c = n.a.create({
             baseURL: l,
@@ -752,11 +752,11 @@ alert("raedy");
         }
         )),
         i.d(t, "d", (function() {
-            return A
+            return q
         }
         )),
         i.d(t, "h", (function() {
-            return q
+            return A
         }
         )),
         i.d(t, "i", (function() {
@@ -1162,7 +1162,7 @@ alert("raedy");
                 })
             }
         })
-          , {settaskID: f, setCourseID: x, setActiveSection: _, setActiveQuestion: j, setTimeRemaining: y, setTimeSpent: w, setExamType: O, updateTest: k, quitTest: S, clearAnswerData: z, programmingQuestionData: A, setInActive: q, setOffScreenCount: C, updateTestResult: N, setdate: T, updateSubmitType: I} = v.actions;
+          , {settaskID: f, setCourseID: x, setActiveSection: _, setActiveQuestion: j, setTimeRemaining: y, setTimeSpent: w, setExamType: O, updateTest: k, quitTest: S, clearAnswerData: z, programmingQuestionData: q, setInActive: A, setOffScreenCount: C, updateTestResult: N, setdate: T, updateSubmitType: I} = v.actions;
         t.a = v.reducer
     },
     230: function(e, t, i) {
@@ -1795,22 +1795,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
           , n = s.a.create({
             baseURL: o,
@@ -2456,12 +2456,12 @@ alert("raedy");
             } : null, "archive" === j.id ? {
                 archive: !0
             } : null)
-              , {formState: A, handleSubmit: q, getValues: C, reset: N, watch: T, setValue: I, control: D} = Object(o.g)({
+              , {formState: q, handleSubmit: A, getValues: C, reset: N, watch: T, setValue: I, control: D} = Object(o.g)({
                 mode: "onChange",
                 defaultValues: O,
                 resolver: Object(s.a)(z)
             })
-              , {isValid: E, dirtyFields: R, errors: P} = A
+              , {isValid: E, dirtyFields: P, errors: R} = q
               , L = T();
             return Object(b.useEffect)(( () => {
                 e.bookmark && "new" !== e.variant && e.onChange && (n.a.isEqual(e.bookmark, L) || e.onChange(L))
@@ -2533,8 +2533,8 @@ alert("raedy");
                                         ...i,
                                         type: "text",
                                         id: "username",
-                                        error: !!P.link,
-                                        helperText: null === P || void 0 === P || null === (t = P.link) || void 0 === t ? void 0 : t.message,
+                                        error: !!R.link,
+                                        helperText: null === R || void 0 === R || null === (t = R.link) || void 0 === t ? void 0 : t.message,
                                         placeholder: "Add link...",
                                         multiline: !0,
                                         rows: "4",
@@ -2599,11 +2599,11 @@ alert("raedy");
                             variant: "contained",
                             color: "secondary",
                             size: "small",
-                            onClick: q((function(t) {
+                            onClick: A((function(t) {
                                 e.addToBookmark(t)
                             }
                             )),
-                            disabled: n.a.isEmpty(R) || !E,
+                            disabled: n.a.isEmpty(P) || !E,
                             children: "Create"
                         })
                     })]
@@ -2793,8 +2793,8 @@ alert("raedy");
           , k = i(518)
           , S = i(506)
           , z = i(175)
-          , A = i(1);
-        const q = _.f().shape({
+          , q = i(1);
+        const A = _.f().shape({
             title: _.h(),
             description: _.h(),
             image: _.h(),
@@ -2809,12 +2809,12 @@ alert("raedy");
             } : null, "archive" === y.id ? {
                 archive: !0
             } : null)
-              , {formState: C, handleSubmit: N, getValues: T, reset: I, watch: D, setValue: E, control: R} = Object(o.g)({
+              , {formState: C, handleSubmit: N, getValues: T, reset: I, watch: D, setValue: E, control: P} = Object(o.g)({
                 mode: "onChange",
                 defaultValues: S,
-                resolver: Object(s.a)(q)
+                resolver: Object(s.a)(A)
             })
-              , {isValid: P, dirtyFields: L, errors: F} = C
+              , {isValid: R, dirtyFields: L, errors: F} = C
               , M = D();
             return Object(f.useEffect)(( () => {
                 e.note && "new" !== e.variant && e.onChange && (n.a.isEqual(e.note, M) || e.onChange(M))
@@ -2824,25 +2824,25 @@ alert("raedy");
                 t(Object(z.e)())
             }
             ), [t]),
-            Object(A.jsxs)("div", {
+            Object(q.jsxs)("div", {
                 className: "flex flex-col w-full",
-                children: [Object(A.jsx)(a.a, {
+                children: [Object(q.jsx)(a.a, {
                     className: "flex flex-auto w-full max-h-640",
-                    children: Object(A.jsxs)("div", {
+                    children: Object(q.jsxs)("div", {
                         className: "w-full",
-                        children: [Object(A.jsx)(o.a, {
+                        children: [Object(q.jsx)(o.a, {
                             name: "image",
-                            control: R,
+                            control: P,
                             defaultValue: "",
                             render: e => {
                                 let {field: {onChange: t, value: i}} = e;
-                                return "" === i ? null : Object(A.jsxs)("div", {
+                                return "" === i ? null : Object(q.jsxs)("div", {
                                     className: "relative",
-                                    children: [Object(A.jsx)("img", {
+                                    children: [Object(q.jsx)("img", {
                                         src: i,
                                         className: "w-full block",
                                         alt: "note"
-                                    }), Object(A.jsx)(l.a, {
+                                    }), Object(q.jsx)(l.a, {
                                         className: "absolute right-0 bottom-0 m-8",
                                         variant: "extended",
                                         size: "small",
@@ -2850,21 +2850,21 @@ alert("raedy");
                                         "aria-label": "Delete Image",
                                         type: "button",
                                         onClick: () => t(""),
-                                        children: Object(A.jsx)(c.a, {
+                                        children: Object(q.jsx)(c.a, {
                                             fontSize: "small",
                                             children: "delete"
                                         })
                                     })]
                                 })
                             }
-                        }), Object(A.jsx)("div", {
+                        }), Object(q.jsx)("div", {
                             className: "px-20 my-16",
-                            children: Object(A.jsx)(o.a, {
+                            children: Object(q.jsx)(o.a, {
                                 name: "title",
-                                control: R,
+                                control: P,
                                 render: e => {
                                     let {field: t} = e;
-                                    return Object(A.jsx)(p.a, {
+                                    return Object(q.jsx)(p.a, {
                                         ...t,
                                         className: "font-semibold text-14",
                                         placeholder: "Title",
@@ -2874,14 +2874,14 @@ alert("raedy");
                                     })
                                 }
                             })
-                        }), Object(A.jsx)("div", {
+                        }), Object(q.jsx)("div", {
                             className: "px-20 my-16",
-                            children: Object(A.jsx)(o.a, {
+                            children: Object(q.jsx)(o.a, {
                                 name: "description",
-                                control: R,
+                                control: P,
                                 render: e => {
                                     let {field: t} = e;
-                                    return Object(A.jsx)(p.a, {
+                                    return Object(q.jsx)(p.a, {
                                         ...t,
                                         placeholder: "Take a note...",
                                         multiline: !0,
@@ -2891,83 +2891,83 @@ alert("raedy");
                                     })
                                 }
                             })
-                        }), Object(A.jsx)(o.a, {
+                        }), Object(q.jsx)(o.a, {
                             name: "checklist",
-                            control: R,
+                            control: P,
                             defaultValue: [],
                             render: e => {
                                 let {field: {onChange: t, value: a}} = e;
-                                return 0 !== a.length || i ? Object(A.jsx)("div", {
+                                return 0 !== a.length || i ? Object(q.jsx)("div", {
                                     className: "px-16",
-                                    children: Object(A.jsx)(k.a, {
+                                    children: Object(q.jsx)(k.a, {
                                         checklist: a,
                                         onCheckListChange: e => t(e)
                                     })
                                 }) : null
                             }
-                        }), (M.labels || M.reminder || M.time) && Object(A.jsxs)("div", {
+                        }), (M.labels || M.reminder || M.time) && Object(q.jsxs)("div", {
                             className: "flex flex-wrap w-full px-20 my-16 -mx-4",
-                            children: [M.reminder && Object(A.jsx)(v.a, {
+                            children: [M.reminder && Object(q.jsx)(v.a, {
                                 className: "mt-4 mx-4",
                                 date: M.reminder
-                            }), Object(A.jsx)(o.a, {
+                            }), Object(q.jsx)(o.a, {
                                 name: "labels",
-                                control: R,
+                                control: P,
                                 defaultValue: [],
                                 render: e => {
                                     let {field: {onChange: t, value: i}} = e;
-                                    return i ? i.map((e => Object(A.jsx)(h.a, {
+                                    return i ? i.map((e => Object(q.jsx)(h.a, {
                                         id: e,
                                         className: "mt-4 mx-4",
                                         onDelete: () => t(i.filter((t => t !== e)))
                                     }, e))) : null
                                 }
-                            }), M.time && Object(A.jsxs)(g.a, {
+                            }), M.time && Object(q.jsxs)(g.a, {
                                 color: "textSecondary",
                                 className: "text-12 mt-8 mx-4",
                                 children: ["Edited: ", Object(j.a)(new Date(M.time), "MMM dd yy, h:mm")]
                             })]
                         })]
                     })
-                }), Object(A.jsxs)("div", {
+                }), Object(q.jsxs)("div", {
                     className: "flex flex-auto justify-between items-center px-16 pb-12",
-                    children: [Object(A.jsxs)("div", {
+                    children: [Object(q.jsxs)("div", {
                         className: "flex items-center",
-                        children: [Object(A.jsx)(m.a, {
+                        children: [Object(q.jsx)(m.a, {
                             title: "Add image",
                             placement: "bottom",
-                            children: Object(A.jsx)("div", {
-                                children: Object(A.jsx)(O.a, {
+                            children: Object(q.jsx)("div", {
+                                children: Object(q.jsx)(O.a, {
                                     onChange: e => E("image", e, {
                                         shouldDirty: !0,
                                         shouldValidate: !0
                                     })
                                 })
                             })
-                        }), Object(A.jsx)(m.a, {
+                        }), Object(q.jsx)(m.a, {
                             title: "Add checklist",
                             placement: "bottom",
-                            children: Object(A.jsx)(u.a, {
+                            children: Object(q.jsx)(u.a, {
                                 className: "w-32 h-32 mx-4 p-0",
                                 onClick: () => _(!i),
-                                children: Object(A.jsx)(c.a, {
+                                children: Object(q.jsx)(c.a, {
                                     fontSize: "small",
                                     children: "playlist_add_check"
                                 })
                             })
-                        }), Object(A.jsx)(m.a, {
+                        }), Object(q.jsx)(m.a, {
                             title: "Change labels",
                             placement: "bottom",
-                            children: Object(A.jsx)("div", {
-                                children: Object(A.jsx)(w.a, {
+                            children: Object(q.jsx)("div", {
+                                children: Object(q.jsx)(w.a, {
                                     note: M,
                                     onChange: e => E("labels", e)
                                 })
                             })
                         })]
-                    }), Object(A.jsx)("div", {
+                    }), Object(q.jsx)("div", {
                         className: "flex items-center",
-                        children: Object(A.jsx)(r.a, {
+                        children: Object(q.jsx)(r.a, {
                             className: "m-4",
                             type: "submit",
                             variant: "contained",
@@ -2977,7 +2977,7 @@ alert("raedy");
                                 e.addToNote(t)
                             }
                             )),
-                            disabled: n.a.isEmpty(L) || !P,
+                            disabled: n.a.isEmpty(L) || !R,
                             children: "Create"
                         })
                     })]
@@ -8322,7 +8322,7 @@ alert("raedy");
             }]
         };
         l.onGet("/api/file-manager-app/files").reply((e => [200, z.files]));
-        const A = [{
+        const q = [{
             name: "360",
             version: 6,
             unsupported_families: [],
@@ -17542,8 +17542,8 @@ alert("raedy");
             tags: ["arrow", "destination", "in", "location", "maps", "move", "out", "pin", "place", "stop", "zoom"],
             sizes_px: [24]
         }];
-        l.onGet("/api/icons").reply((e => [200, A]));
-        const q = {
+        l.onGet("/api/icons").reply((e => [200, q]));
+        const A = {
             invoices: [{
                 id: "5725a6802d",
                 from: {
@@ -17603,7 +17603,7 @@ alert("raedy");
         };
         l.onGet("/api/invoices/get-invoice").reply((e => {
             const {id: t} = e.params;
-            return [200, q.invoices.find((e => e.id === t))]
+            return [200, A.invoices.find((e => e.id === t))]
         }
         ));
         const C = [{
@@ -19548,7 +19548,7 @@ alert("raedy");
         };
         l.onGet("/api/subject-dashboard-app/widgets").reply((e => [200, E.widgets])),
         l.onGet("/api/subject-dashboard-app/projects").reply((e => [200, E.projects]));
-        const R = {
+        const P = {
             notes: [{
                 id: 1,
                 title: "Best songs to listen while working",
@@ -19576,8 +19576,8 @@ alert("raedy");
                 detail: "20:30 PM"
             }]
         };
-        l.onGet("/api/quick-panel/data").reply((e => [200, R]));
-        var P = i(65)
+        l.onGet("/api/quick-panel/data").reply((e => [200, P]));
+        var R = i(65)
           , L = i(59)
           , F = i(344);
         const M = {
@@ -19622,7 +19622,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "AngularCLI could be a nice alternative.",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 10
                         }))
                     }],
@@ -19638,7 +19638,7 @@ alert("raedy");
                         id: "67027cahbe3b52ecf2dc631c",
                         name: "mail.jpg",
                         src: "assets/images/scrumboard/mail.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 12
                         })),
                         type: "image"
@@ -19646,7 +19646,7 @@ alert("raedy");
                         id: "56027cfcbe1b72ecf1fc452a",
                         name: "calendar.jpg",
                         src: "assets/images/scrumboard/calendar.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 22
                         })),
                         type: "image"
@@ -19694,7 +19694,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "56027c1930450d8bf7b10758",
                         message: "We should be able to add date-fns without any problems",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 10
                         }))
                     }, {
@@ -19702,7 +19702,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "I added a link for a page that might help us deciding the colors",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 20
                         }))
                     }, {
@@ -19710,11 +19710,11 @@ alert("raedy");
                         type: "attachment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "attached a link",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 45
                         }))
                     }],
-                    due: Object(L.a)(Object(P.a)(new Date, {
+                    due: Object(L.a)(Object(R.a)(new Date, {
                         days: 10
                     }))
                 }, {
@@ -19780,7 +19780,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "I'm on it!",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 10
                         }))
                     }],
@@ -19826,7 +19826,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "This should be a medium priority bug, shouldn't it?",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 1
                         }))
                     }],
@@ -19856,7 +19856,7 @@ alert("raedy");
                         id: "12027cafbe3b52ecf2ef632c",
                         name: "header-.jpg",
                         src: "assets/images/scrumboard/header-1.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             days: 10
                         })),
                         type: "image"
@@ -19864,7 +19864,7 @@ alert("raedy");
                         id: "55027ced1e1a12ecf1fced2a",
                         name: "header-2.jpg",
                         src: "assets/images/scrumboard/header-2.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             days: 20
                         })),
                         type: "image"
@@ -19876,7 +19876,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "Currently we have two new designs ready to ship.",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 1
                         }))
                     }],
@@ -19966,7 +19966,7 @@ alert("raedy");
                         }]
                     }],
                     activities: [],
-                    due: Object(L.a)(Object(P.a)(new Date, {
+                    due: Object(L.a)(Object(R.a)(new Date, {
                         days: 12
                     }))
                 }],
@@ -20033,14 +20033,14 @@ alert("raedy");
                         id: "56027cfcbe1b72ecf1fc452a",
                         name: "calendar-app-design.jpg",
                         src: "assets/images/scrumboard/calendar.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 20
                         })),
                         type: "image"
                     }, {
                         id: "67027cahbe3b52ecf2dc631c",
                         url: "assets/images/scrumboard/calendar.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 10
                         })),
                         type: "link"
@@ -20088,7 +20088,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "56027c1930450d8bf7b10758",
                         message: "We should be able to add date-fns without any problems",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 20
                         }))
                     }, {
@@ -20096,7 +20096,7 @@ alert("raedy");
                         type: "comment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "I added a link for a page that might help us deciding the colors",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 30
                         }))
                     }, {
@@ -20104,7 +20104,7 @@ alert("raedy");
                         type: "attachment",
                         idMember: "36027j1930450d8bf7b10158",
                         message: "attached a link",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 45
                         }))
                     }],
@@ -20120,7 +20120,7 @@ alert("raedy");
                         id: "5603a2ae2bbd55bb2db57478",
                         name: "mail-app-design.jpg",
                         src: "assets/images/scrumboard/mail.jpg",
-                        time: Object(L.a)(Object(P.a)(new Date, {
+                        time: Object(L.a)(Object(R.a)(new Date, {
                             minutes: 20
                         })),
                         type: "image"
@@ -21526,7 +21526,7 @@ alert("raedy");
         }
         )),
         i.d(t, "f", (function() {
-            return q
+            return A
         }
         )),
         i.d(t, "g", (function() {
@@ -21783,13 +21783,13 @@ alert("raedy");
         }
         const k = e => {
             return t = e,
-            Object(s.getContrastRatio)(t, "#ffffff") >= 3 ? z : A;
+            Object(s.getContrastRatio)(t, "#ffffff") >= 3 ? z : q;
             var t
         }
           , S = Object(o.a)([y, w, e => e.fuse.settings.current.theme.main], ( (e, t, i) => O(e, i, t)))
           , z = Object(o.a)([y, w], ( (e, t, i) => O(e, "mainThemeDark", t)))
-          , A = Object(o.a)([y, w], ( (e, t, i) => O(e, "mainThemeLight", t)))
-          , q = Object(o.a)([y, w, e => e.fuse.settings.current.theme.navbar], ( (e, t, i) => O(e, i, t)))
+          , q = Object(o.a)([y, w], ( (e, t, i) => O(e, "mainThemeLight", t)))
+          , A = Object(o.a)([y, w, e => e.fuse.settings.current.theme.navbar], ( (e, t, i) => O(e, i, t)))
           , C = Object(o.a)([y, w, e => e.fuse.settings.current.theme.toolbar], ( (e, t, i) => O(e, i, t)))
           , N = Object(o.a)([y, w, e => e.fuse.settings.current.theme.footer], ( (e, t, i) => O(e, i, t)))
           , T = 0 !== Object.keys(_.a).length ? _.a : h
@@ -21809,7 +21809,7 @@ alert("raedy");
             current: r.a.merge({}, I),
             themes: D
         }
-          , R = Object(n.d)({
+          , P = Object(n.d)({
             name: "settings",
             initialState: E,
             reducers: {
@@ -21855,8 +21855,8 @@ alert("raedy");
                 }
             }
         })
-          , {resetSettings: P, setDefaultSettings: L, setInitialSettings: F, setSettings: M} = R.actions;
-        t.a = R.reducer
+          , {resetSettings: R, setDefaultSettings: L, setInitialSettings: F, setSettings: M} = P.actions;
+        t.a = P.reducer
     },
     62: function(e, t, i) {
         "use strict";
@@ -22499,7 +22499,7 @@ alert("raedy");
             },
             extraReducers: {}
         })
-          , {signupSuccess: h, signupError: v, setLanguages: f, setInstitutions: x, setClasses: _, setSections: j, setStates: y, setCities: w, setCourses: O, setStudentsInfo: k, setParentstInfo: S, setStudentInfoSuccess: z, setParentInfoSuccess: A, setSecret: q} = b.actions;
+          , {signupSuccess: h, signupError: v, setLanguages: f, setInstitutions: x, setClasses: _, setSections: j, setStates: y, setCities: w, setCourses: O, setStudentsInfo: k, setParentstInfo: S, setStudentInfoSuccess: z, setParentInfoSuccess: q, setSecret: A} = b.actions;
         t.a = b.reducer
     },
     86: function(e, t, i) {
@@ -22627,13 +22627,13 @@ alert("raedy");
           , k = i(137)
           , S = i(951)
           , z = i(890)
-          , A = i(96)
-          , q = i(78)
+          , q = i(96)
+          , A = i(78)
           , C = i(3)
           , N = i(7)
           , T = i(14)
           , I = i(1);
-        const D = Object(A.a)((e => ({
+        const D = Object(q.a)((e => ({
             root: {},
             success: {
                 backgroundColor: j.a[600],
@@ -22658,7 +22658,7 @@ alert("raedy");
             error: "error_outline",
             info: "info"
         };
-        function R(e) {
+        function P(e) {
             const t = Object(N.b)()
               , i = Object(N.c)((e => {
                 let {fuse: t} = e;
@@ -22692,7 +22692,7 @@ alert("raedy");
                         children: [E[a.variant] && Object(I.jsx)(O.a, {
                             color: "inherit",
                             children: E[a.variant]
-                        }), Object(I.jsx)(q.a, {
+                        }), Object(I.jsx)(A.a, {
                             className: "mx-8",
                             children: a.message
                         })]
@@ -22708,7 +22708,7 @@ alert("raedy");
                 })
             })
         }
-        var P = Object(_.memo)(R)
+        var R = Object(_.memo)(P)
           , L = i(527)
           , F = i(219)
           , M = i(952)
@@ -23036,7 +23036,7 @@ alert("raedy");
                 component: Object(_.lazy)(( () => i.e(38).then(i.bind(null, 1351))))
             }]
         };
-        var Ae = {
+        var qe = {
             settings: {
                 layout: {}
             },
@@ -23054,7 +23054,7 @@ alert("raedy");
                 component: Object(_.lazy)(( () => i.e(27).then(i.bind(null, 1387))))
             }]
         };
-        var qe = {
+        var Ae = {
             settings: {
                 layout: {
                     config: {}
@@ -23086,7 +23086,7 @@ alert("raedy");
                 path: "/studentconfig",
                 component: Object(_.lazy)(( () => Promise.all([i.e(4), i.e(29), i.e(54)]).then(i.bind(null, 1353))))
             }]
-        }, qe, Ce, ze, Ae, {
+        }, Ae, Ce, ze, qe, {
             settings: {
                 layout: {
                     config: {}
@@ -23194,11 +23194,11 @@ alert("raedy");
             })
         }]
           , Ee = i(955)
-          , Re = i(893)
-          , Pe = i(987);
+          , Pe = i(893)
+          , Re = i(987);
         function Le(e) {
             const t = Object(N.c)(B.d)
-              , {t: i} = Object(Pe.a)()
+              , {t: i} = Object(Re.a)()
               , a = Object(N.c)((e => {
                 let {auth: t} = e;
                 return t.user.data.role
@@ -23214,11 +23214,11 @@ alert("raedy");
                         backgroundColor: t.palette.background.default,
                         color: t.palette.primary.dark
                     },
-                    children: Object(I.jsx)(Re.a, {
+                    children: Object(I.jsx)(Pe.a, {
                         className: "min-h-48 md:min-h-64 px-8 sm:px-12 py-0 flex items-center justify-center overflow-x-auto",
-                        children: "SchoolStudent" === a ? Object(I.jsxs)(q.a, {
+                        children: "SchoolStudent" === a ? Object(I.jsxs)(A.a, {
                             children: [i("POWEREDBY"), "\xa0"]
-                        }) : Object(I.jsxs)(q.a, {
+                        }) : Object(I.jsxs)(A.a, {
                             children: [i("COPYRIGHT"), "\xa0 Version-", "2.1.18"]
                         })
                     })
@@ -23232,7 +23232,7 @@ alert("raedy");
           , He = i(67)
           , Je = i(46)
           , We = i(26);
-        const Ve = Object(A.a)((e => ({
+        const Ve = Object(q.a)((e => ({
             root: {
                 "& .logo-icon": {
                     transition: e.transitions.create(["width", "height"], {
@@ -23320,7 +23320,7 @@ alert("raedy");
                 ...e
             }) : null
         }
-        Object(A.a)((e => ({
+        Object(q.a)((e => ({
             navigation: {
                 "& .fuse-list-item": {
                     "&:hover": {
@@ -23347,7 +23347,7 @@ alert("raedy");
                 }
             }
         })));
-        const at = Object(A.a)((e => ({
+        const at = Object(q.a)((e => ({
             navigation: {
                 "& .fuse-list-item": {
                     fontSize: "16px",
@@ -23396,7 +23396,7 @@ alert("raedy");
           , rt = i(354)
           , lt = i(546)
           , ct = i(68);
-        const dt = Object(A.a)((e => ({
+        const dt = Object(q.a)((e => ({
             root: {
                 padding: "0 7px",
                 fontSize: 11,
@@ -23424,7 +23424,7 @@ alert("raedy");
         }
         ut.defaultProps = {};
         var pt = Object(_.memo)(ut);
-        const mt = Object(A.a)((e => ({
+        const mt = Object(q.a)((e => ({
             item: t => ({
                 minHeight: 100,
                 height: 100,
@@ -23532,7 +23532,7 @@ alert("raedy");
         }
         gt.defaultProps = {};
         const bt = gt;
-        Object(A.a)((e => ({
+        Object(q.a)((e => ({
             navigation: {
                 "& .fuse-list-item": {
                     "&:hover": {
@@ -23556,7 +23556,7 @@ alert("raedy");
           , ft = i(268)
           , xt = i(956)
           , _t = i(957);
-        const jt = Object(A.a)((e => ({
+        const jt = Object(q.a)((e => ({
             root: {
                 "& .fuse-list-item-text": {
                     padding: "0 0 0 16px"
@@ -23694,7 +23694,7 @@ alert("raedy");
         }
         wt.defaultProps = {};
         var Ot = Object(l.withRouter)(Object(_.memo)(wt));
-        const kt = Object(A.a)((e => ({
+        const kt = Object(q.a)((e => ({
             root: {
                 color: e.palette.text.primary,
                 "&.active, &.active:hover, &.active:focus": {
@@ -23827,8 +23827,8 @@ alert("raedy");
             })), [t.children, t.popper, t.popperClose, t.root, r, c, o, n, i, e.location.pathname, l.direction])
         }
         zt.defaultProps = {};
-        var At = Object(l.withRouter)(Object(_.memo)(zt));
-        const qt = Object(A.a)((e => ({
+        var qt = Object(l.withRouter)(Object(_.memo)(zt));
+        const At = Object(q.a)((e => ({
             root: {
                 minHeight: 48,
                 "&.active": {
@@ -23851,7 +23851,7 @@ alert("raedy");
             }
         })));
         function Ct(e) {
-            const t = qt(e)
+            const t = At(e)
               , {item: i} = e;
             return Object(_.useMemo)(( () => Object(I.jsxs)(rt.a, {
                 button: !0,
@@ -23878,7 +23878,7 @@ alert("raedy");
         }
         Ct.defaultProps = {};
         var Nt = Object(l.withRouter)(Object(_.memo)(Ct));
-        const Tt = Object(A.a)((e => ({
+        const Tt = Object(q.a)((e => ({
             root: {
                 minHeight: 48,
                 "&.active": {
@@ -23929,7 +23929,7 @@ alert("raedy");
         It.defaultProps = {};
         var Dt = Object(l.withRouter)(Object(_.memo)(It))
           , Et = i(544);
-        const Rt = Object(A.a)((e => ({
+        const Pt = Object(q.a)((e => ({
             root: {
                 padding: 0,
                 "&.open": {}
@@ -23951,7 +23951,7 @@ alert("raedy");
                 }
             })
         })));
-        function Pt(e, t) {
+        function Rt(e, t) {
             return e && Lt(t, e.pathname)
         }
         function Lt(e, t) {
@@ -23966,14 +23966,14 @@ alert("raedy");
             return !1
         }
         function Ft(e) {
-            const [t,i] = Object(_.useState)(( () => Pt(e.location, e.item)))
+            const [t,i] = Object(_.useState)(( () => Rt(e.location, e.item)))
               , {item: a, nestedLevel: s, onItemClick: o} = e
-              , n = Rt({
+              , n = Pt({
                 itemPadding: s > 0 ? 28 + 16 * s : 12
             })
               , r = Object(l.useLocation)();
             return Object(_.useEffect)(( () => {
-                Pt(r, e.item) && (t || i(!0))
+                Rt(r, e.item) && (t || i(!0))
             }
             ), [r, e.item]),
             Object(_.useMemo)(( () => Object(I.jsxs)("ul", {
@@ -24023,7 +24023,7 @@ alert("raedy");
         Ft.defaultProps = {};
         var Mt = Ft
           , Bt = i(958);
-        const Ut = Object(A.a)((e => ({
+        const Ut = Object(q.a)((e => ({
             item: t => ({
                 height: 40,
                 width: "100%",
@@ -24070,7 +24070,7 @@ alert("raedy");
         var Jt = Ht
           , Wt = i(230)
           , Vt = i(959);
-        const Gt = Object(A.a)((e => ({
+        const Gt = Object(q.a)((e => ({
             profile: {
                 margin: "0px 14px 0px 4px",
                 width: "14px"
@@ -24125,7 +24125,7 @@ alert("raedy");
         function $t(e) {
             Object(N.b)();
             const {item: t, nestedLevel: i, onItemClick: a} = e
-              , {t: s} = Object(Pe.a)()
+              , {t: s} = Object(Re.a)()
               , {location: o} = Object(l.useHistory)()
               , n = Gt({
                 itemPadding: i > 0 ? 28 + 16 * i : 12
@@ -24161,7 +24161,7 @@ alert("raedy");
         }
         $t.defaultProps = {};
         var Yt = $t;
-        const Qt = Object(A.a)((e => ({
+        const Qt = Object(q.a)((e => ({
             item: t => ({
                 height: 40,
                 width: "100%",
@@ -24224,7 +24224,7 @@ alert("raedy");
         tt("vertical-collapse", Mt),
         tt("vertical-item", Yt),
         tt("vertical-link", Kt),
-        tt("horizontal-group", At),
+        tt("horizontal-group", qt),
         tt("horizontal-collapse", Ot),
         tt("horizontal-item", Nt),
         tt("horizontal-link", Dt),
@@ -24234,7 +24234,7 @@ alert("raedy");
         tt("horizontal-divider", ( () => Object(I.jsx)(Ke.a, {
             className: "my-16"
         })));
-        const Xt = Object(A.a)((e => ({
+        const Xt = Object(q.a)((e => ({
             "@global": {
                 ".popper-navigation-list": {
                     "& .fuse-list-item": {
@@ -24273,7 +24273,7 @@ alert("raedy");
           , si = i(117)
           , oi = i(12)
           , ni = i(112);
-        const ri = Object(A.a)((e => ({
+        const ri = Object(q.a)((e => ({
             ProfileView: {
                 padding: "20px 30px 20px 30px",
                 fontSize: "1.5rem",
@@ -24329,22 +24329,22 @@ alert("raedy");
                 WDS_SOCKET_PATH: void 0,
                 WDS_SOCKET_PORT: void 0,
                 FAST_REFRESH: !0,
-                REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-                REACT_APP_COURSE_TRACK_INTERVAL: "3",
-                REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+                REACT_APP_VERSION: "2.1.18",
                 REACT_APP_FAST_REFRESH: "false",
+                REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+                REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
                 REACT_APP_GAME_URL: "blockly-games/appengine",
-                REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-                REACT_APP_NUMBER_OF_RETRY: "20",
-                REACT_APP_NUMBER_OF_WARNINGS: "400",
                 REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-                REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+                REACT_APP_NUMBER_OF_RETRY: "20",
                 REACT_APP_RUN_INTERVAL: "3",
+                REACT_APP_NUMBER_OF_WARNINGS: "400",
+                REACT_APP_URL_MONITORING_INERVAL: "60",
+                REACT_APP_COURSE_TRACK_INTERVAL: "3",
                 REACT_APP_SECTION_TIME_END_WARNING: "1",
                 REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
                 REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-                REACT_APP_URL_MONITORING_INERVAL: "60",
-                REACT_APP_VERSION: "2.1.18"
+                REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+                REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
             });
             a = a || "https://lms.talentely.com";
             const s = Object(Je.a)()
@@ -24453,7 +24453,7 @@ alert("raedy");
                         }), Object(I.jsx)(nt.a, {
                             arrow: !0,
                             title: `${a}/in/${null === p || void 0 === p ? void 0 : p.url}`,
-                            children: Object(I.jsx)(q.a, {
+                            children: Object(I.jsx)(A.a, {
                                 onClick: () => {
                                     `${a}/in/${null === p || void 0 === p ? void 0 : p.url}` && window.open(`${a}/in/${null === p || void 0 === p ? void 0 : p.url}`)
                                 }
@@ -24489,7 +24489,7 @@ alert("raedy");
         };
         var ci = Object(_.memo)(li)
           , di = i(989);
-        const ui = Object(A.a)((e => ({
+        const ui = Object(q.a)((e => ({
             root: {
                 color: "#ffffff",
                 "&.user": {
@@ -24532,7 +24532,7 @@ alert("raedy");
             ))
               , {location: a} = Object(l.useHistory)()
               , s = ui()
-              , {t: o} = Object(Pe.a)();
+              , {t: o} = Object(Re.a)();
             return Object(I.jsxs)(Ee.a, {
                 style: {
                     height: "150px"
@@ -24543,7 +24543,7 @@ alert("raedy");
                     root: s.root
                 },
                 className: "user relative flex flex-col items-center justify-center pt-24 pb-64 mb-32 z-0 shadow-0",
-                children: [Object(I.jsx)(q.a, {
+                children: [Object(I.jsx)(A.a, {
                     className: Object(C.a)("username text-20 whitespace-nowrap font-semibold mb-4", s.Title),
                     color: "inherit",
                     children: null === i || void 0 === i ? void 0 : i.title
@@ -24582,7 +24582,7 @@ alert("raedy");
                 })]
             })
         };
-        const mi = Object(A.a)((e => ({
+        const mi = Object(q.a)((e => ({
             root: {
                 backgroundColor: e.palette.background.default,
                 color: e.palette.text.primary,
@@ -24672,7 +24672,7 @@ alert("raedy");
         }
         var bi = Object(_.memo)(gi);
         const hi = 280
-          , vi = Object(A.a)((e => ({
+          , vi = Object(q.a)((e => ({
             navbar: {
                 minWidth: hi,
                 width: hi,
@@ -24764,8 +24764,8 @@ alert("raedy");
           , ki = i(966)
           , Si = i(964)
           , zi = i(36)
-          , Ai = i.n(zi)
-          , qi = i(965)
+          , qi = i.n(zi)
+          , Ai = i(965)
           , Ci = i(23);
         i(341);
         var Ni = i(94)
@@ -24779,13 +24779,13 @@ alert("raedy");
                 closeNotificationPanel: (e, t) => !1
             }
         })
-          , {toggleNotificationPanel: Di, openNotificationPanel: Ei, closeNotificationPanel: Ri} = Ii.actions;
-        var Pi = Ii.reducer;
+          , {toggleNotificationPanel: Di, openNotificationPanel: Ei, closeNotificationPanel: Pi} = Ii.actions;
+        var Ri = Ii.reducer;
         var Li = Object(Ni.b)({
             data: ni.a,
-            state: Pi
+            state: Ri
         });
-        const Fi = Object(A.a)((e => ({
+        const Fi = Object(q.a)((e => ({
             root: {
                 minWidth: 345
             },
@@ -24827,9 +24827,9 @@ alert("raedy");
             var t, i, a, s, o, n, r, c, d, u, p, m, g, b, h, v, x, j;
             const y = Fi()
               , w = Object(_.useRef)(null)
-              , {t: S} = Object(Pe.a)()
+              , {t: S} = Object(Re.a)()
               , z = Object(l.useHistory)()
-              , A = Object(l.useLocation)()
+              , q = Object(l.useLocation)()
               , T = Object(N.b)()
               , D = Object(N.c)((e => {
                 let {notificationPanel: t} = e;
@@ -24841,7 +24841,7 @@ alert("raedy");
                 return null === e || void 0 === e || null === (t = e.notificationPanel) || void 0 === t || null === (i = t.data) || void 0 === i ? void 0 : i.notificationList
             }
             ))
-              , {enqueueSnackbar: R, closeSnackbar: P} = Object(f.c)()
+              , {enqueueSnackbar: P, closeSnackbar: R} = Object(f.c)()
               , L = Object(N.d)()
               , F = null === L || void 0 === L || null === (t = L.getState().auth) || void 0 === t || null === (i = t.user) || void 0 === i || null === (a = i.activeTestDetails) || void 0 === a ? void 0 : a.TaskID
               , M = null === L || void 0 === L || null === (s = L.getState().auth) || void 0 === s || null === (o = s.user) || void 0 === o || null === (n = o.activeTestDetails) || void 0 === n ? void 0 : n.CourseID
@@ -24867,9 +24867,9 @@ alert("raedy");
             }
             ), [E]),
             Object(_.useEffect)(( () => {
-                D && T(Ri())
+                D && T(Pi())
             }
-            ), [A, T]),
+            ), [q, T]),
             Object(_.useEffect)(( () => {
                 setInterval(( () => {
                     Q(X())
@@ -24898,7 +24898,7 @@ alert("raedy");
                 children: [Object(I.jsx)(k.a, {
                     className: "m-4 absolute top-0 right-0 z-999",
                     onClick: function() {
-                        T(Ri())
+                        T(Pi())
                     },
                     children: Object(I.jsx)(O.a, {
                         color: "action",
@@ -24923,7 +24923,7 @@ alert("raedy");
                                 marginLeft: "-5px"
                             },
                             className: "flex justify-between items-end  mb-24 px-5",
-                            children: Object(I.jsx)(q.a, {
+                            children: Object(I.jsx)(A.a, {
                                 className: "text-28 font-semibold leading-none",
                                 children: S("NOTIFICATIONS")
                             })
@@ -24933,46 +24933,46 @@ alert("raedy");
                                 className: y.roots,
                                 children: [Object(I.jsx)(Oi.a, {
                                     children: Object(I.jsxs)(Si.a, {
-                                        children: [Object(I.jsxs)(q.a, {
+                                        children: [Object(I.jsxs)(A.a, {
                                             variant: "h6",
                                             component: "h2",
                                             children: [B, " "]
-                                        }), Object(I.jsxs)(qi.a, {
+                                        }), Object(I.jsxs)(Ai.a, {
                                             container: !0,
                                             spacing: 3,
                                             className: "pt-16",
-                                            children: [Object(I.jsx)(qi.a, {
+                                            children: [Object(I.jsx)(Ai.a, {
                                                 item: !0,
                                                 xs: 6,
-                                                children: Object(I.jsx)(q.a, {
+                                                children: Object(I.jsx)(A.a, {
                                                     variant: "body2",
                                                     color: "textSecondary",
                                                     component: "p",
                                                     children: S("TESTDURATION")
                                                 })
-                                            }), Object(I.jsx)(qi.a, {
+                                            }), Object(I.jsx)(Ai.a, {
                                                 item: !0,
                                                 xs: 6,
-                                                children: Object(I.jsx)(q.a, {
+                                                children: Object(I.jsx)(A.a, {
                                                     variant: "body2",
                                                     color: "textSecondary",
                                                     component: "p",
                                                     children: zi.utc(1e3 * H).format("HH:mm:ss")
                                                 })
                                             })]
-                                        }), Object(I.jsxs)(qi.a, {
+                                        }), Object(I.jsxs)(Ai.a, {
                                             container: !0,
                                             spacing: 3,
-                                            children: [Object(I.jsx)(qi.a, {
+                                            children: [Object(I.jsx)(Ai.a, {
                                                 item: !0,
                                                 xs: 6,
-                                                children: Object(I.jsx)(q.a, {
+                                                children: Object(I.jsx)(A.a, {
                                                     variant: "body2",
                                                     color: "textSecondary",
                                                     component: "p",
                                                     children: S("TESTREMAINING")
                                                 })
-                                            }), Object(I.jsx)(qi.a, {
+                                            }), Object(I.jsx)(Ai.a, {
                                                 item: !0,
                                                 xs: 6,
                                                 children: Object(I.jsx)(yi.a, {
@@ -25019,11 +25019,11 @@ alert("raedy");
                                     children: Object(I.jsxs)(Si.a, {
                                         children: [!(null === e || void 0 === e ? void 0 : e.ReadFlag) && Object(I.jsx)("div", {
                                             className: y.readed
-                                        }), Object(I.jsxs)(q.a, {
+                                        }), Object(I.jsxs)(A.a, {
                                             variant: "h6",
                                             component: "h2",
                                             children: [null === e || void 0 === e ? void 0 : e.JobTitle, " - ", (null === e || void 0 === e ? void 0 : e.JobUniqueID) || ""]
-                                        }), Object(I.jsx)(q.a, {
+                                        }), Object(I.jsx)(A.a, {
                                             children: "ShortListJob" === (null === e || void 0 === e ? void 0 : e.Type) ? "Hiring manager has updated the job" : "New job matching your preference has been updated"
                                         })]
                                     })
@@ -25054,7 +25054,7 @@ alert("raedy");
                                         color: "primary",
                                         disableElevation: !0,
                                         children: "View Job"
-                                    }), Object(I.jsx)(q.a, {
+                                    }), Object(I.jsx)(A.a, {
                                         children: X(null === e || void 0 === e ? void 0 : e.CreatedDate) || ""
                                     })]
                                 })]
@@ -25064,17 +25064,17 @@ alert("raedy");
                                     children: Object(I.jsxs)(Si.a, {
                                         children: [!(null === e || void 0 === e ? void 0 : e.ReadFlag) && Object(I.jsx)("div", {
                                             className: y.readed
-                                        }), Object(I.jsxs)(q.a, {
+                                        }), Object(I.jsxs)(A.a, {
                                             variant: "h6",
                                             component: "h2",
                                             children: [null === e || void 0 === e ? void 0 : e.JobTitle, " - ", (null === e || void 0 === e ? void 0 : e.JobUniqueID) || ""]
-                                        }), Object(I.jsxs)(q.a, {
+                                        }), Object(I.jsxs)(A.a, {
                                             style: {
                                                 fontSize: "13px",
                                                 lineHeight: "inherit"
                                             },
                                             variant: "subtitle1",
-                                            children: ["JobTestSchedule" === (null === e || void 0 === e ? void 0 : e.Type) ? `A test has been scheduled for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "JobTestSelect" === (null === e || void 0 === e ? void 0 : e.Type) ? "Selected" === (null === e || void 0 === e ? void 0 : e.TestStatus) ? `Congrats, You have passed the qualifying test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : `Sorry, You have not passed the qualifying test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : "JobInterviewDate" === (null === e || void 0 === e ? void 0 : e.Type) ? ` A Interview has been scheduled for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "JobInterviewSelect" === (null === e || void 0 === e ? void 0 : e.Type) ? "Selected" === (null === e || void 0 === e ? void 0 : e.InterviewStatus) ? `Congrats, You have passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : `Sorry, You have not passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check out the other jobs in ` : "JobAwaiting" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been selected to attend a test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "OfferState" === (null === e || void 0 === e ? void 0 : e.Type) ? "Offered" === (null === e || void 0 === e ? void 0 : e.OfferState) ? `An offer letter has been sent for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : `Sorry, You have not passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please chec` : "TestToInterview" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been selected for the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details` : "InterviewToShortlisted" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been shortlisted from the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details` : "", "JobInterviewSelect" === (null === e || void 0 === e ? void 0 : e.Type) && "NotSelected" === (null === e || void 0 === e ? void 0 : e.InterviewStatus) && Object(I.jsx)(q.a, {
+                                            children: ["JobTestSchedule" === (null === e || void 0 === e ? void 0 : e.Type) ? `A test has been scheduled for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "JobTestSelect" === (null === e || void 0 === e ? void 0 : e.Type) ? "Selected" === (null === e || void 0 === e ? void 0 : e.TestStatus) ? `Congrats, You have passed the qualifying test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : `Sorry, You have not passed the qualifying test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : "JobInterviewDate" === (null === e || void 0 === e ? void 0 : e.Type) ? ` A Interview has been scheduled for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "JobInterviewSelect" === (null === e || void 0 === e ? void 0 : e.Type) ? "Selected" === (null === e || void 0 === e ? void 0 : e.InterviewStatus) ? `Congrats, You have passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}.` : `Sorry, You have not passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check out the other jobs in ` : "JobAwaiting" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been selected to attend a test for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : "OfferState" === (null === e || void 0 === e ? void 0 : e.Type) ? "Offered" === (null === e || void 0 === e ? void 0 : e.OfferState) ? `An offer letter has been sent for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details.` : `Sorry, You have not passed the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please chec` : "TestToInterview" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been selected for the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details` : "InterviewToShortlisted" === (null === e || void 0 === e ? void 0 : e.Type) ? `You have been shortlisted from the interview round for ${null === e || void 0 === e ? void 0 : e.JobUniqueID} - ${null === e || void 0 === e ? void 0 : e.JobTitle}. Please check your Email for further details` : "", "JobInterviewSelect" === (null === e || void 0 === e ? void 0 : e.Type) && "NotSelected" === (null === e || void 0 === e ? void 0 : e.InterviewStatus) && Object(I.jsx)(A.a, {
                                                 onClick: () => {
                                                     z.push("/jobs-dashboard")
                                                 }
@@ -25177,11 +25177,11 @@ alert("raedy");
                     ,
                     children: [Object(I.jsxs)("div", {
                         className: "hidden md:flex flex-col mx-4 items-end",
-                        children: [Object(I.jsx)(q.a, {
+                        children: [Object(I.jsx)(A.a, {
                             component: "span",
                             className: "font-semibold flex",
                             children: o.data.displayName
-                        }), Object(I.jsx)(q.a, {
+                        }), Object(I.jsx)(A.a, {
                             className: "text-11 font-medium capitalize",
                             color: "textSecondary",
                             children: null === (t = o.data.role) || void 0 === t ? void 0 : t.toString()
@@ -25351,7 +25351,7 @@ alert("raedy");
           , oa = i(495)
           , na = i(502);
         i(886);
-        const ra = Object(A.a)((e => ({
+        const ra = Object(q.a)((e => ({
             root: {
                 "&.horizontal": {},
                 "&.vertical": {
@@ -25447,7 +25447,7 @@ alert("raedy");
                 url: "/example",
                 auth: null
             }]
-              , {t: o} = Object(Pe.a)()
+              , {t: o} = Object(Re.a)()
               , n = ra(e)
               , r = Object(_.useRef)(null)
               , [l,c] = Object(_.useState)(null)
@@ -25583,7 +25583,7 @@ alert("raedy");
                     }), Object(I.jsx)(Ke.a, {}), 0 !== d.length && p && p.map((e => Object(I.jsx)(j, {
                         item: e,
                         onToggle: () => x(e.id)
-                    }, e.id))), 0 !== d.length && 0 === p.length && Object(I.jsx)(q.a, {
+                    }, e.id))), 0 !== d.length && 0 === p.length && Object(I.jsx)(A.a, {
                         color: "textSecondary",
                         className: "p-16 pb-8",
                         children: "No results.."
@@ -25723,7 +25723,7 @@ alert("raedy");
                         className: "mx-4 min-w-20 w-20",
                         src: `assets/images/flags/${a.flag}.png`,
                         alt: a.title
-                    }), Object(I.jsx)(q.a, {
+                    }), Object(I.jsx)(A.a, {
                         className: "mx-4 font-semibold uppercase",
                         color: "textSecondary",
                         children: a.id
@@ -25775,7 +25775,7 @@ alert("raedy");
                 return t.user.data.role
             }
             ))
-              , {t: n} = Object(Pe.a)()
+              , {t: n} = Object(Re.a)()
               , r = Object(N.b)()
               , c = (Object(l.useHistory)(),
             Object(N.d)(),
@@ -25803,7 +25803,7 @@ alert("raedy");
             })
         };
         var ba = Object(ji.a)("notificationPanel", Li)(ga);
-        const ha = Object(A.a)((e => ({
+        const ha = Object(q.a)((e => ({
             root: {}
         })));
         function va(e) {
@@ -25824,7 +25824,7 @@ alert("raedy");
                         backgroundColor: "#FFFCF9"
                     },
                     position: "static",
-                    children: Object(I.jsxs)(Re.a, {
+                    children: Object(I.jsxs)(Pe.a, {
                         className: "p-0 min-h-48 md:min-h-64",
                         children: [Object(I.jsxs)("div", {
                             className: "flex flex-1 px-16",
@@ -25853,7 +25853,7 @@ alert("raedy");
             })
         }
         var fa = Object(_.memo)(va);
-        const xa = Object(A.a)((e => ({
+        const xa = Object(q.a)((e => ({
             root: {
                 "&.boxed": {
                     clipPath: "inset(0)",
@@ -25987,13 +25987,13 @@ alert("raedy");
                             className: "sticky bottom-0"
                         })]
                     })]
-                }), Object(I.jsx)(Hi, {}), Object(I.jsx)(P, {})]
+                }), Object(I.jsx)(Hi, {}), Object(I.jsx)(R, {})]
             })
         }
         var ja = {
             layout1: Object(_.memo)(_a)
         };
-        const ya = Object(A.a)((e => ({
+        const ya = Object(q.a)((e => ({
             "@global": {
                 'code:not([class*="language-"])': {
                     color: e.palette.secondary.dark,
@@ -26214,7 +26214,7 @@ alert("raedy");
             icon: "bookmark",
             url: "/bookmark"
         }];
-        var Aa = [{
+        var qa = [{
             id: "profile",
             title: "Profile",
             translate: "Profile",
@@ -26278,7 +26278,7 @@ alert("raedy");
             icon: "bookmark",
             url: "/bookmark"
         }];
-        var qa = [{
+        var Aa = [{
             id: "dashoard",
             title: "Dashboard",
             translate: "SUBJECTDASHBOARD",
@@ -26523,22 +26523,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         });
         let Ia = [];
         const Da = () => {
@@ -26560,7 +26560,7 @@ alert("raedy");
                             const t = s.filter((e => e === a)).toString();
                             e(null !== a && a === t ? Object(fe.d)(Sa) : Object(fe.d)(za))
                         } else
-                            "Institution" === o ? e(Object(fe.d)(Ca)) : "SchoolTeacher" === o ? e(Object(fe.d)(qa)) : "SchoolStudent" === o ? e(Object(fe.d)(Aa)) : "ClientAdmin" !== o && "InstituteAdmin" !== o || e(Object(fe.d)(Na))
+                            "Institution" === o ? e(Object(fe.d)(Ca)) : "SchoolTeacher" === o ? e(Object(fe.d)(Aa)) : "SchoolStudent" === o ? e(Object(fe.d)(qa)) : "ClientAdmin" !== o && "InstituteAdmin" !== o || e(Object(fe.d)(Na))
                     }
                 }
             }
@@ -26603,8 +26603,8 @@ alert("raedy");
         }
         ;
         var Ea = i(978)
-          , Ra = i(982)
-          , Pa = i(130)
+          , Pa = i(982)
+          , Ra = i(130)
           , La = i(49)
           , Fa = i(355)
           , Ma = i(981)
@@ -26757,7 +26757,7 @@ alert("raedy");
             username: "",
             password: ""
         }
-          , Xa = Object(A.a)((e => ({
+          , Xa = Object(q.a)((e => ({
             forgot: {
                 position: "absolute",
                 bottom: "-30px",
@@ -26802,11 +26802,11 @@ alert("raedy");
               , [x,j] = Object(_.useState)(!1)
               , [y,w] = Object(_.useState)(null)
               , [S,z] = Object(_.useState)(["b3e2625f-84ec-44db-9e57-a9e7ec4af6b3", "a12cfe42-3394-4ce7-8cf8-ac7a85b9e7cf", "c0a25ab7-6522-49fe-b3e4-7c51e5a7dcde", "31ba09b1-4442-4a77-a2e7-913726bf9bd4", "2e588d2e-b469-45e1-9474-d98262f9aa78", "073c4293-0ae3-40c8-944e-93b9f756d377"])
-              , [A,q] = Object(_.useState)("");
+              , [q,A] = Object(_.useState)("");
             Object(_.useEffect)(( () => {
                 o.SessionID && function(e) {
                     i(Object(Ki.d)());
-                    const t = R();
+                    const t = P();
                     oi.a.post("/user/v1/loginwithsessionid", {
                         SessionID: e,
                         deviceInfo: t
@@ -26837,7 +26837,7 @@ alert("raedy");
                             D(l, s.userTypeName),
                             "Student" === s.userTypeName ? (i(Object(fe.d)(Sa)),
                             a.push({
-                                pathname: "/eis-dashboard"
+                                pathname: "/profile"
                             })) : "Teacher" === s.userTypeName ? (i(Object(fe.d)(g)),
                             l ? a.push({
                                 pathname: "/error"
@@ -26853,7 +26853,7 @@ alert("raedy");
                                 pathname: `/academy/courses/topic/${null === s || void 0 === s ? void 0 : s.CourseID}`
                             }) : a.push({
                                 pathname: "/academy/courses/"
-                            })) : "SchoolStudent" === s.userTypeName ? (i(Object(fe.d)(Aa)),
+                            })) : "SchoolStudent" === s.userTypeName ? (i(Object(fe.d)(qa)),
                             (null === s || void 0 === s ? void 0 : s.CourseID) ? a.push({
                                 pathname: `/academy/courses/topic/${null === s || void 0 === s ? void 0 : s.CourseID}`
                             }) : a.push({
@@ -26906,15 +26906,15 @@ alert("raedy");
                     }
                     ));
                     g = [...t, null === ka.a || void 0 === ka.a ? void 0 : ka.a[(null === ka.a || void 0 === ka.a ? void 0 : ka.a.length) - 1]];
-                    const i = null === qa || void 0 === qa ? void 0 : qa.filter(( (t, i) => {
+                    const i = null === Aa || void 0 === Aa ? void 0 : Aa.filter(( (t, i) => {
                         if (-1 !== (null === e || void 0 === e ? void 0 : e.findIndex(( (e, i) => (null === e || void 0 === e ? void 0 : e.TabName) === (null === t || void 0 === t ? void 0 : t.Tab)))))
                             return t
                     }
                     ));
-                    b = [...i, null === qa || void 0 === qa ? void 0 : qa[(null === qa || void 0 === qa ? void 0 : qa.length) - 1]]
+                    b = [...i, null === Aa || void 0 === Aa ? void 0 : Aa[(null === Aa || void 0 === Aa ? void 0 : Aa.length) - 1]]
                 } else
                     g = [...ka.a],
-                    b = [...qa];
+                    b = [...Aa];
                 "Teacher" === t ? i(Object(ai.b)(g)) : "SchoolTeacher" === t && i(Object(ai.b)(b))
             }
               , E = async e => {
@@ -26928,7 +26928,7 @@ alert("raedy");
                 return 0
             }
             ;
-            function R() {
+            function P() {
                 return Qa.a.name,
                 Qa.a.version,
                 Qa.a.layout,
@@ -26950,7 +26950,7 @@ alert("raedy");
                     className: Object(C.a)("flex flex-col justify-center w-full", t.overall),
                     onSubmit: d((function(e) {
                         i(Object(Ki.d)());
-                        const t = R();
+                        const t = P();
                         oi.a.post("/user/v1/login", {
                             ...e,
                             deviceInfo: t
@@ -26965,7 +26965,7 @@ alert("raedy");
                                 window.localStorage.setItem("setInstituteId", JSON.stringify(null === (t = e.data.body) || void 0 === t ? void 0 : t.InstitutionID)),
                                 window.localStorage.setItem("popupstatus", JSON.stringify(!1));
                                 window.localStorage.getItem("setInstituteId");
-                                q(null === (s = e.data.body) || void 0 === s ? void 0 : s.InstitutionID);
+                                A(null === (s = e.data.body) || void 0 === s ? void 0 : s.InstitutionID);
                                 const {body: l, message: c} = e.data
                                   , {token: d} = l;
                                 localStorage.setItem("ClientID", (null === l || void 0 === l ? void 0 : l.ClientID) ? null === l || void 0 === l ? void 0 : l.ClientID : "");
@@ -26996,10 +26996,10 @@ alert("raedy");
                                     )).toString();
                                     null !== (null === (n = e.data.body) || void 0 === n ? void 0 : n.InstitutionID) && (null === (r = e.data.body) || void 0 === r ? void 0 : r.InstitutionID) === t ? (i(Object(fe.d)(Sa)),
                                     a.push({
-                                        pathname: "/eis-dashboard"
+                                        pathname: "/profile"
                                     })) : (i(Object(fe.d)(za)),
                                     a.push({
-                                        pathname: "/eis-dashboard"
+                                        pathname: "/profile"
                                     }))
                                 } else
                                     "Teacher" === l.userTypeName ? (i(Object(fe.d)(g)),
@@ -27013,7 +27013,7 @@ alert("raedy");
                                         pathname: "/error"
                                     }) : a.push({
                                         pathname: "/academy/courses"
-                                    })) : "SchoolStudent" === l.userTypeName ? (i(Object(fe.d)(Aa)),
+                                    })) : "SchoolStudent" === l.userTypeName ? (i(Object(fe.d)(qa)),
                                     a.push({
                                         pathname: "/academy/courses"
                                     })) : "ClientAdmin" !== l.userTypeName && "InstituteAdmin" !== l.userTypeName || (i(Object(fe.d)(Na)),
@@ -27155,7 +27155,7 @@ alert("raedy");
                 })
             })
         };
-        const ts = Object(A.a)((e => ({
+        const ts = Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -27189,7 +27189,7 @@ alert("raedy");
         var is = function() {
             const e = ts()
               , [t,i] = Object(_.useState)(0)
-              , {t: a} = Object(Pe.a)();
+              , {t: a} = Object(Re.a)();
             return Object(I.jsx)("div", {
                 className: Object(C.a)(e.root, "flex flex-col flex-auto items-center justify-center flex-shrink-0 p-16 md:p-24"),
                 children: Object(I.jsxs)(aa.a.div, {
@@ -27231,7 +27231,7 @@ alert("raedy");
                             className: "flex flex-col items-center justify-center w-full pb-96 max-w-320",
                             children: [Object(I.jsx)(ht.a, {
                                 in: !0,
-                                children: Object(I.jsxs)(Ra.a, {
+                                children: Object(I.jsxs)(Pa.a, {
                                     classes: {
                                         indicator: e.indicator
                                     },
@@ -27295,7 +27295,7 @@ alert("raedy");
                                         delay: .2
                                     }
                                 },
-                                children: Object(I.jsxs)(q.a, {
+                                children: Object(I.jsxs)(A.a, {
                                     variant: "h3",
                                     color: "inherit",
                                     className: "font-semibold leading-tight",
@@ -27311,7 +27311,7 @@ alert("raedy");
                                         delay: .3
                                     }
                                 },
-                                children: Object(I.jsx)(q.a, {
+                                children: Object(I.jsx)(A.a, {
                                     variant: "subtitle1",
                                     color: "inherit",
                                     className: "mt-32",
@@ -27403,7 +27403,7 @@ alert("raedy");
                             firstName: null === t || void 0 === t ? void 0 : t.firstName,
                             middleName: null === t || void 0 === t ? void 0 : t.middleName,
                             lastName: null === t || void 0 === t ? void 0 : t.lastName,
-                            DOB: null === (a = Ai()(null === t || void 0 === t ? void 0 : t.DOB)) || void 0 === a ? void 0 : a.format("DD-MM-YYYY"),
+                            DOB: null === (a = qi()(null === t || void 0 === t ? void 0 : t.DOB)) || void 0 === a ? void 0 : a.format("DD-MM-YYYY"),
                             email: null === t || void 0 === t ? void 0 : t.email,
                             mobile: null === t || void 0 === t ? void 0 : t.mobile,
                             city: null === t || void 0 === t ? void 0 : t.city,
@@ -28112,7 +28112,7 @@ alert("raedy");
                 })]
             })
         };
-        const gs = Object(A.a)((e => ({
+        const gs = Object(q.a)((e => ({
             layoutRoot: {
                 padding: "0 50px"
             }
@@ -28156,7 +28156,7 @@ alert("raedy");
                         className: "flex flex-1 w-full items-center justify-between",
                         children: Object(I.jsx)("div", {
                             className: "flex items-center",
-                            children: Object(I.jsx)(q.a, {
+                            children: Object(I.jsx)(A.a, {
                                 component: aa.a.span,
                                 initial: {
                                     x: -20
@@ -28176,7 +28176,7 @@ alert("raedy");
                             })
                         })
                     }),
-                    contentToolbar: Object(I.jsxs)(Ra.a, {
+                    contentToolbar: Object(I.jsxs)(Pa.a, {
                         value: a,
                         onChange: function(e, i) {
                             t.push({
@@ -28216,7 +28216,7 @@ alert("raedy");
                 })
             })
         };
-        const vs = Object(A.a)((e => ({
+        const vs = Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -28247,7 +28247,7 @@ alert("raedy");
             const t = Object(l.useHistory)()
               , i = vs()
               , a = Object(N.b)()
-              , {t: s} = Object(Pe.a)()
+              , {t: s} = Object(Re.a)()
               , o = Object(N.c)((e => {
                 let {auth: t} = e;
                 return t.register
@@ -28416,7 +28416,7 @@ alert("raedy");
                                         delay: .2
                                     }
                                 },
-                                children: Object(I.jsxs)(q.a, {
+                                children: Object(I.jsxs)(A.a, {
                                     variant: "h3",
                                     color: "inherit",
                                     className: "font-semibold leading-tight",
@@ -28432,7 +28432,7 @@ alert("raedy");
                                         delay: .3
                                     }
                                 },
-                                children: Object(I.jsx)(q.a, {
+                                children: Object(I.jsx)(A.a, {
                                     variant: "subtitle1",
                                     color: "inherit",
                                     className: "mt-32",
@@ -28444,7 +28444,7 @@ alert("raedy");
                 })
             })
         };
-        const js = Object(A.a)((e => ({
+        const js = Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -28473,7 +28473,7 @@ alert("raedy");
             const t = Object(l.useHistory)()
               , i = js()
               , a = Object(N.b)()
-              , {t: s} = Object(Pe.a)()
+              , {t: s} = Object(Re.a)()
               , {control: o, setValue: n, formState: r, handleSubmit: c, reset: d, trigger: u, setError: p} = (Object(N.c)((e => {
                 let {auth: t} = e;
                 return t.register
@@ -28641,7 +28641,7 @@ alert("raedy");
                                         delay: .2
                                     }
                                 },
-                                children: Object(I.jsxs)(q.a, {
+                                children: Object(I.jsxs)(A.a, {
                                     variant: "h3",
                                     color: "inherit",
                                     className: "font-semibold leading-tight",
@@ -28657,7 +28657,7 @@ alert("raedy");
                                         delay: .3
                                     }
                                 },
-                                children: Object(I.jsx)(q.a, {
+                                children: Object(I.jsx)(A.a, {
                                     variant: "subtitle1",
                                     color: "inherit",
                                     className: "mt-32",
@@ -28669,7 +28669,7 @@ alert("raedy");
                 })
             })
         };
-        const ks = Object(A.a)((e => ({
+        const ks = Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -28696,7 +28696,7 @@ alert("raedy");
             password: "",
             confirmPassword: ""
         };
-        var As = function(e) {
+        var qs = function(e) {
             const t = Object(l.useHistory)()
               , i = ks()
               , a = Object(N.b)()
@@ -28706,7 +28706,7 @@ alert("raedy");
                 return t.register
             }
             )),
-            Object(Pe.a)())
+            Object(Re.a)())
               , {control: n, setValue: r, formState: c, handleSubmit: d, reset: u, trigger: p, setError: m} = Object(Ua.g)({
                 mode: "onChange",
                 defaultValues: zs,
@@ -28882,7 +28882,7 @@ alert("raedy");
                                         delay: .2
                                     }
                                 },
-                                children: Object(I.jsxs)(q.a, {
+                                children: Object(I.jsxs)(A.a, {
                                     variant: "h3",
                                     color: "inherit",
                                     className: "font-semibold leading-tight",
@@ -28898,7 +28898,7 @@ alert("raedy");
                                         delay: .3
                                     }
                                 },
-                                children: Object(I.jsx)(q.a, {
+                                children: Object(I.jsx)(A.a, {
                                     variant: "subtitle1",
                                     color: "inherit",
                                     className: "mt-32",
@@ -28910,7 +28910,7 @@ alert("raedy");
                 })
             })
         };
-        const qs = Object(A.a)((e => ({
+        const As = Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -28937,10 +28937,10 @@ alert("raedy");
         };
         var Ts = function(e) {
             const t = Object(l.useHistory)()
-              , i = qs()
+              , i = As()
               , a = Object(N.b)()
               , s = Object(l.useLocation)()
-              , {t: o} = Object(Pe.a)();
+              , {t: o} = Object(Re.a)();
             Object(_.useEffect)(( () => {
                 s.state.secret || t.push({
                     pathname: "/login"
@@ -29098,7 +29098,7 @@ alert("raedy");
                                         delay: .2
                                     }
                                 },
-                                children: Object(I.jsxs)(q.a, {
+                                children: Object(I.jsxs)(A.a, {
                                     variant: "h3",
                                     color: "inherit",
                                     className: "font-semibold leading-tight",
@@ -29114,7 +29114,7 @@ alert("raedy");
                                         delay: .3
                                     }
                                 },
-                                children: Object(I.jsx)(q.a, {
+                                children: Object(I.jsx)(A.a, {
                                     variant: "subtitle1",
                                     color: "inherit",
                                     className: "mt-32",
@@ -29126,7 +29126,7 @@ alert("raedy");
                 })
             })
         };
-        Object(A.a)((e => ({
+        Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -29150,7 +29150,7 @@ alert("raedy");
             password: Ha.h().required("Please enter your password.").min(4, "Password is too short - should be 4 chars minimum.")
         });
         i(298);
-        Object(A.a)((e => ({
+        Object(q.a)((e => ({
             root: {
                 background: "#E5E5E5",
                 color: e.palette.primary.dark
@@ -29176,15 +29176,15 @@ alert("raedy");
         var Is = i(992)
           , Ds = i.p + "static/media/mail.3f447f7e.svg"
           , Es = i.p + "static/media/phone.75500aa9.svg"
-          , Rs = i.p + "static/media/map-pin.088271da.svg"
-          , Ps = i.p + "static/media/linked.7dfcaae8.svg"
+          , Ps = i.p + "static/media/map-pin.088271da.svg"
+          , Rs = i.p + "static/media/linked.7dfcaae8.svg"
           , Ls = i.p + "static/media/twitter.a7a611d4.svg"
           , Fs = i.p + "static/media/instagram.ead6441f.svg"
           , Ms = i.p + "static/media/facebook.0e71cf64.svg"
           , Bs = i(196)
           , Us = i.p + "static/media/Talentely Logo1.420b3aa6.png";
         i.p;
-        const Hs = Object(A.a)((e => ({
+        const Hs = Object(q.a)((e => ({
             root: {
                 background: "#F9F8FB"
             },
@@ -29286,7 +29286,7 @@ alert("raedy");
             }
         })));
         var Js = function() {
-            var e, t, i, a, s, o, n, r, c, d, u, p, m, g, b, h, v, f, x, j, y, w, O, k, S, z, A, D, E, R, P, L, F, M, B, U, H, J, W, V, G, $, Y, Q, Z, K, X, ee, te, ie, ae, se, oe;
+            var e, t, i, a, s, o, n, r, c, d, u, p, m, g, b, h, v, f, x, j, y, w, O, k, S, z, q, D, E, P, R, L, F, M, B, U, H, J, W, V, G, $, Y, Q, Z, K, X, ee, te, ie, ae, se, oe;
             const ne = Hs()
               , re = (Object(l.useHistory)(),
             Object(N.b)())
@@ -29306,7 +29306,7 @@ alert("raedy");
               , [ye,we] = Object(_.useState)(null)
               , [Oe,ke] = Object(_.useState)({})
               , [Se,ze] = Object(_.useState)(null)
-              , [Ae,qe] = Object(_.useState)(!1);
+              , [qe,Ae] = Object(_.useState)(!1);
             Object(_.useEffect)(( () => {
                 Ce()
             }
@@ -29321,7 +29321,7 @@ alert("raedy");
                     var t, i;
                     console.log("getUserAllDetails--------\x3e>>>", e),
                     ke(e.data.body),
-                    "success" === (null === e || void 0 === e || null === (t = e.data) || void 0 === t || null === (i = t.message) || void 0 === i ? void 0 : i.toLowerCase()) ? qe(!1) : qe(!0)
+                    "success" === (null === e || void 0 === e || null === (t = e.data) || void 0 === t || null === (i = t.message) || void 0 === i ? void 0 : i.toLowerCase()) ? Ae(!1) : Ae(!0)
                 }
                 )).catch((e => {
                     console.log(e)
@@ -29338,8 +29338,8 @@ alert("raedy");
               , Te = Boolean(ye)
               , Ie = e => {
                 const t = {
-                    startdate: Ai()(e.startdate).format("YYYY-MM-DD") || new Date,
-                    enddate: "" !== e.enddate ? Ai()(e.enddate).format("YYYY-MM-DD") || new Date : Ai()(new Date).format("YYYY-MM-DD")
+                    startdate: qi()(e.startdate).format("YYYY-MM-DD") || new Date,
+                    enddate: "" !== e.enddate ? qi()(e.enddate).format("YYYY-MM-DD") || new Date : qi()(new Date).format("YYYY-MM-DD")
                 }
                   , i = new Set;
                 function a(e) {
@@ -29440,7 +29440,7 @@ alert("raedy");
                                                     type: "submit",
                                                     color: "primary",
                                                     variant: "contained",
-                                                    disabled: Ae,
+                                                    disabled: qe,
                                                     style: {
                                                         marginRight: "px",
                                                         background: "#FFC20D",
@@ -29727,7 +29727,7 @@ alert("raedy");
                                                 alignItems: "center"
                                             },
                                             children: Object(I.jsx)("img", {
-                                                src: Rs,
+                                                src: Ps,
                                                 alt: "mail"
                                             })
                                         }), Object(I.jsxs)("div", {
@@ -29776,7 +29776,7 @@ alert("raedy");
                                                 width: "10%"
                                             },
                                             children: Object(I.jsx)("img", {
-                                                src: Ps,
+                                                src: Rs,
                                                 alt: "mail"
                                             })
                                         }), Object(I.jsx)(nt.a, {
@@ -29819,7 +29819,7 @@ alert("raedy");
                                             })
                                         }), Object(I.jsx)(nt.a, {
                                             arrow: !0,
-                                            title: (null === Oe || void 0 === Oe || null === (z = Oe.socialInfo) || void 0 === z ? void 0 : z.instagram) ? null === Oe || void 0 === Oe || null === (A = Oe.socialInfo) || void 0 === A ? void 0 : A.instagram : "",
+                                            title: (null === Oe || void 0 === Oe || null === (z = Oe.socialInfo) || void 0 === z ? void 0 : z.instagram) ? null === Oe || void 0 === Oe || null === (q = Oe.socialInfo) || void 0 === q ? void 0 : q.instagram : "",
                                             children: Object(I.jsx)("div", {
                                                 role: "none",
                                                 onClick: () => {
@@ -29860,7 +29860,7 @@ alert("raedy");
                                             })
                                         }), Object(I.jsx)(nt.a, {
                                             arrow: !0,
-                                            title: (null === Oe || void 0 === Oe || null === (E = Oe.socialInfo) || void 0 === E ? void 0 : E.twitter) ? null === Oe || void 0 === Oe || null === (R = Oe.socialInfo) || void 0 === R ? void 0 : R.twitter : "",
+                                            title: (null === Oe || void 0 === Oe || null === (E = Oe.socialInfo) || void 0 === E ? void 0 : E.twitter) ? null === Oe || void 0 === Oe || null === (P = Oe.socialInfo) || void 0 === P ? void 0 : P.twitter : "",
                                             children: Object(I.jsx)("div", {
                                                 role: "none",
                                                 onClick: () => {
@@ -29877,7 +29877,7 @@ alert("raedy");
                                                     paddingLeft: "10px"
                                                 },
                                                 className: ne.linkurl,
-                                                children: null === Oe || void 0 === Oe || null === (P = Oe.socialInfo) || void 0 === P ? void 0 : P.twitter
+                                                children: null === Oe || void 0 === Oe || null === (R = Oe.socialInfo) || void 0 === R ? void 0 : R.twitter
                                             })
                                         })]
                                     }), Object(I.jsxs)("div", {
@@ -29922,7 +29922,7 @@ alert("raedy");
                                 }), Object(I.jsx)("br", {})]
                             }), Object(I.jsx)("div", {
                                 className: ne.rightSections,
-                                children: Ae ? Object(I.jsx)("div", {
+                                children: qe ? Object(I.jsx)("div", {
                                     className: ne.foundContainer,
                                     children: Object(I.jsx)("div", {
                                         className: ne.notFound,
@@ -30012,7 +30012,7 @@ alert("raedy");
                                                                 color: "#525252",
                                                                 fontWeight: 500
                                                             },
-                                                            children: [e.startdate ? Ai()(e.startdate).format("MMM YYYY") : e.startdate, " ", "-", " ", e.enddate ? Ai()(e.enddate).format("MMM YYYY") : e.working, " ", "(", Ie({
+                                                            children: [e.startdate ? qi()(e.startdate).format("MMM YYYY") : e.startdate, " ", "-", " ", e.enddate ? qi()(e.enddate).format("MMM YYYY") : e.working, " ", "(", Ie({
                                                                 startdate: e.startdate,
                                                                 enddate: e.enddate
                                                             }), ")"]
@@ -30098,7 +30098,7 @@ alert("raedy");
                                                                 color: "#525252",
                                                                 fontWeight: 500
                                                             },
-                                                            children: `${Ai()(e.startdate).format("MMM YYYY")} - ${Ai()(e.enddate).format("MMM YYYY")}`
+                                                            children: `${qi()(e.startdate).format("MMM YYYY")} - ${qi()(e.enddate).format("MMM YYYY")}`
                                                         })]
                                                     }), Object(I.jsxs)("div", {
                                                         className: "gap-10",
@@ -30163,7 +30163,7 @@ alert("raedy");
                                                             width: "250px",
                                                             maxWidth: "100%"
                                                         },
-                                                        children: Object(I.jsx)(q.a, {
+                                                        children: Object(I.jsx)(A.a, {
                                                             style: {
                                                                 fontSize: "14px",
                                                                 width: "290px",
@@ -30191,13 +30191,13 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 0px 0px 10px"
                                                                     },
                                                                     children: "Sem 1:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
@@ -30210,12 +30210,12 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
                                                                     children: "Sem 5:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 10px 0px 0px"
@@ -30235,13 +30235,13 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 0px 0px 10px"
                                                                     },
                                                                     children: "Sem 2:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
@@ -30254,12 +30254,12 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
                                                                     children: "Sem 6:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 10px 0px 0px"
@@ -30280,13 +30280,13 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 0px 0px 10px"
                                                                     },
                                                                     children: "Sem 3:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
@@ -30299,12 +30299,12 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
                                                                     children: "Sem 7:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 10px 0px 0px"
@@ -30324,13 +30324,13 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 0px 0px 10px"
                                                                     },
                                                                     children: "Sem 4:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
@@ -30343,12 +30343,12 @@ alert("raedy");
                                                                     width: "42%",
                                                                     padding: "10px 0px"
                                                                 },
-                                                                children: [Object(I.jsx)(q.a, {
+                                                                children: [Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px"
                                                                     },
                                                                     children: "Sem 8:"
-                                                                }), Object(I.jsx)(q.a, {
+                                                                }), Object(I.jsx)(A.a, {
                                                                     style: {
                                                                         fontSize: "14px",
                                                                         padding: "0px 10px 0px 0px"
@@ -30397,7 +30397,7 @@ alert("raedy");
                                         }), Object(I.jsx)("div", {
                                             children: Object(I.jsx)(ht.a, {
                                                 in: !0,
-                                                children: Object(I.jsx)(Ra.a, {
+                                                children: Object(I.jsx)(Pa.a, {
                                                     classes: {
                                                         indicator: ne.indicator
                                                     },
@@ -30537,7 +30537,7 @@ alert("raedy");
                                         }), Object(I.jsx)("div", {
                                             children: Object(I.jsx)(ht.a, {
                                                 in: !0,
-                                                children: Object(I.jsx)(Ra.a, {
+                                                children: Object(I.jsx)(Pa.a, {
                                                     classes: {
                                                         indicator: ne.indicator
                                                     },
@@ -30876,7 +30876,7 @@ alert("raedy");
                                         }), Object(I.jsx)("div", {
                                             children: Object(I.jsx)(ht.a, {
                                                 in: !0,
-                                                children: Object(I.jsx)(Ra.a, {
+                                                children: Object(I.jsx)(Pa.a, {
                                                     classes: {
                                                         indicator: ne.indicator
                                                     },
@@ -31010,7 +31010,7 @@ alert("raedy");
                                                                 }), Object(I.jsx)(nt.a, {
                                                                     arrow: !0,
                                                                     title: (null === e || void 0 === e ? void 0 : e.html_url) ? null === e || void 0 === e ? void 0 : e.html_url : "",
-                                                                    children: Object(I.jsx)(q.a, {
+                                                                    children: Object(I.jsx)(A.a, {
                                                                         onClick: () => {
                                                                             (null === e || void 0 === e ? void 0 : e.html_url) && window.open(null === e || void 0 === e ? void 0 : e.html_url)
                                                                         }
@@ -31058,7 +31058,7 @@ alert("raedy");
                                             children: null === Oe || void 0 === Oe || null === (oe = Oe.Stopstalk) || void 0 === oe ? void 0 : oe.map((e => Object(I.jsx)(nt.a, {
                                                 arrow: !0,
                                                 title: (null === e || void 0 === e ? void 0 : e.url) ? null === e || void 0 === e ? void 0 : e.url : "",
-                                                children: Object(I.jsx)(q.a, {
+                                                children: Object(I.jsx)(A.a, {
                                                     onClick: () => {
                                                         (null === e || void 0 === e ? void 0 : e.url) && window.open(e.url)
                                                     }
@@ -31154,7 +31154,7 @@ alert("raedy");
                                                     component: Ts
                                                 }), Object(I.jsx)(l.Route, {
                                                     path: "/change-password",
-                                                    component: As
+                                                    component: qs
                                                 }), Object(I.jsx)(l.Route, {
                                                     path: "/in/:id",
                                                     component: Js
@@ -31162,9 +31162,9 @@ alert("raedy");
                                                     path: "/",
                                                     component: Da
                                                 })]
-                                            }), Object(I.jsx)(P, {})]
+                                            }), Object(I.jsx)(R, {})]
                                         })
-                                    }), Object(I.jsx)(Pa.a, {})]
+                                    }), Object(I.jsx)(Ra.a, {})]
                                 })
                             })
                         })
@@ -31221,16 +31221,16 @@ alert("raedy");
           , k = i(169)
           , S = i(975)
           , z = i(985)
-          , A = i(106)
-          , q = i(86)
+          , q = i(106)
+          , A = i(86)
           , C = i(36)
           , N = i.n(C)
           , T = i(3)
           , I = i(14)
           , D = i(987)
           , E = i(15)
-          , R = i(37)
-          , P = i(25)
+          , P = i(37)
+          , R = i(25)
           , L = i(12)
           , F = i(507)
           , M = i(23)
@@ -31288,7 +31288,7 @@ alert("raedy");
                                 console.log(n)
                             }
                             u(Object(M.e)()),
-                            u(Object(R.a)()),
+                            u(Object(P.a)()),
                             p.replace({
                                 pathname: "/report",
                                 search: `?courseId=${null === g || void 0 === g || null === (t = g.testResult) || void 0 === t ? void 0 : t.courseID}&taskId=${null === g || void 0 === g || null === (i = g.testResult) || void 0 === i ? void 0 : i.taskID}&attemptId=${null === g || void 0 === g || null === (a = g.testResult) || void 0 === a ? void 0 : a.analyticsID}`,
@@ -31313,7 +31313,7 @@ alert("raedy");
                                 console.log(t)
                             }
                             u(Object(M.e)()),
-                            u(Object(R.a)()),
+                            u(Object(P.a)()),
                             p.replace("/academy/courses")
                         }
                         ,
@@ -31397,8 +31397,8 @@ alert("raedy");
               , [g,b] = Object(l.useState)(!1)
               , [j,y] = Object(l.useState)(!1)
               , [O,S] = Object(l.useState)(!1)
-              , [z,A] = Object(l.useState)(10)
-              , q = () => {
+              , [z,q] = Object(l.useState)(10)
+              , A = () => {
                 b(!1)
             }
             ;
@@ -31477,10 +31477,10 @@ alert("raedy");
                             S((e => !e)),
                             s(Object(M.l)(N()())),
                             s(Object(M.g)(i + 1)),
-                            Object(P.r)(i + 1)) : (A(10),
+                            Object(R.r)(i + 1)) : (q(10),
                             y(!0),
                             V = setInterval(( () => {
-                                A((e => (1 !== e || (clearInterval(V),
+                                q((e => (1 !== e || (clearInterval(V),
                                 C(!0),
                                 y(!1)),
                                 e - 1)))
@@ -31647,10 +31647,10 @@ alert("raedy");
                                     const i = null === n || void 0 === n ? void 0 : n.section[t].question.findIndex((e => e.isActiveQuestion));
                                     if (e.length - 1 !== t && e[t].question.length - 1 === i)
                                         return y(!0),
-                                        A(10),
+                                        q(10),
                                         y(!0),
                                         void (V = setInterval(( () => {
-                                            A((e => (1 !== e || (clearInterval(V),
+                                            q((e => (1 !== e || (clearInterval(V),
                                             C(!0),
                                             y(!1)),
                                             e - 1)))
@@ -31687,7 +31687,7 @@ alert("raedy");
                     })]
                 }), Object(B.jsxs)(h.a, {
                     open: g,
-                    onClose: q,
+                    onClose: A,
                     "aria-labelledby": "form-dialog-title",
                     children: [Object(B.jsx)(_.a, {
                         id: "form-dialog-title",
@@ -31706,7 +31706,7 @@ alert("raedy");
                         })]
                     }), Object(B.jsxs)(v.a, {
                         children: [Object(B.jsx)(k.a, {
-                            onClick: q,
+                            onClick: A,
                             color: "primary",
                             children: i("CANCEL")
                         }), Object(B.jsx)(k.a, {
@@ -31716,7 +31716,7 @@ alert("raedy");
                                 if (t > -1) {
                                     const i = null === n || void 0 === n ? void 0 : n.section[t].question.findIndex((e => e.isActiveQuestion));
                                     if (i > -1) {
-                                        const a = await Object(P.m)({
+                                        const a = await Object(R.m)({
                                             questionTaskMapID: e[t].question[i].questionTaskMapID,
                                             message: p
                                         });
@@ -31882,7 +31882,7 @@ alert("raedy");
             ), [f]),
             Object(l.useEffect)(( () => {
                 var e, t, i;
-                console.log((null === r || void 0 === r || null === (e = r.section) || void 0 === e ? void 0 : e.length) - 1 === Object(P.h)() ? N()(u) + 1e3 * (null === r || void 0 === r || null === (t = r.section[(null === r || void 0 === r || null === (i = r.section) || void 0 === i ? void 0 : i.length) - 1]) || void 0 === t ? void 0 : t.sectionTimeRemaining) : (null === r || void 0 === r ? void 0 : r.remainingTime) ? b + 1e3 * (null === r || void 0 === r ? void 0 : r.remainingTime) : b + 1e3 * (null === r || void 0 === r ? void 0 : r.totalDuration), "timereee")
+                console.log((null === r || void 0 === r || null === (e = r.section) || void 0 === e ? void 0 : e.length) - 1 === Object(R.h)() ? N()(u) + 1e3 * (null === r || void 0 === r || null === (t = r.section[(null === r || void 0 === r || null === (i = r.section) || void 0 === i ? void 0 : i.length) - 1]) || void 0 === t ? void 0 : t.sectionTimeRemaining) : (null === r || void 0 === r ? void 0 : r.remainingTime) ? b + 1e3 * (null === r || void 0 === r ? void 0 : r.remainingTime) : b + 1e3 * (null === r || void 0 === r ? void 0 : r.totalDuration), "timereee")
             }
             ), []),
             Object(B.jsx)(B.Fragment, {
@@ -31908,7 +31908,7 @@ alert("raedy");
                                     m(!1),
                                     g(!0)
                                 },
-                                date: (null === r || void 0 === r || null === (i = r.section) || void 0 === i ? void 0 : i.length) - 1 === Object(P.h)() && 0 !== parseInt(null === r || void 0 === r ? void 0 : r.sectionWiseTimer, 10) ? N()(u) + 1e3 * (null === r || void 0 === r || null === (a = r.section[(null === r || void 0 === r || null === (s = r.section) || void 0 === s ? void 0 : s.length) - 1]) || void 0 === a ? void 0 : a.sectionTimeRemaining) : (null === r || void 0 === r ? void 0 : r.remainingTime) ? b + 1e3 * (null === r || void 0 === r ? void 0 : r.remainingTime) : b + 1e3 * (null === r || void 0 === r ? void 0 : r.totalDuration),
+                                date: (null === r || void 0 === r || null === (i = r.section) || void 0 === i ? void 0 : i.length) - 1 === Object(R.h)() && 0 !== parseInt(null === r || void 0 === r ? void 0 : r.sectionWiseTimer, 10) ? N()(u) + 1e3 * (null === r || void 0 === r || null === (a = r.section[(null === r || void 0 === r || null === (s = r.section) || void 0 === s ? void 0 : s.length) - 1]) || void 0 === a ? void 0 : a.sectionTimeRemaining) : (null === r || void 0 === r ? void 0 : r.remainingTime) ? b + 1e3 * (null === r || void 0 === r ? void 0 : r.remainingTime) : b + 1e3 * (null === r || void 0 === r ? void 0 : r.totalDuration),
                                 renderer: e => {
                                     let {hours: t, minutes: i, seconds: a} = e;
                                     return Object(B.jsx)(B.Fragment, {
@@ -31959,22 +31959,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
           , oe = parseInt(se, 10) || 1;
         var ne = function(e) {
@@ -31991,16 +31991,16 @@ alert("raedy");
                 return null === (t = e.examApp.exam) || void 0 === t ? void 0 : t.date
             }
             ))
-              , {setIsDirty: w, setShowCompleteDialoge: O, onConfirmComplete: S, refs: A, setOpen: q, open: N, date: T} = e
+              , {setIsDirty: w, setShowCompleteDialoge: O, onConfirmComplete: S, refs: q, setOpen: A, open: N, date: T} = e
               , I = Object(c.b)()
-              , {timer: D, isActive: E, isPaused: R, handleStart: P, handlePause: L, handleResume: F, handleReset: U} = (Object(d.useHistory)(),
+              , {timer: D, isActive: E, isPaused: P, handleStart: R, handlePause: L, handleResume: F, handleReset: U} = (Object(d.useHistory)(),
             Q(null === j || void 0 === j ? void 0 : j.timeSpent));
             Object(l.useEffect)(( () => {
                 w(!0)
             }
             ), []),
             Object(l.useEffect)(( () => {
-                "practice" === (null === j || void 0 === j ? void 0 : j.type) && P()
+                "practice" === (null === j || void 0 === j ? void 0 : j.type) && R()
             }
             ), [null === j || void 0 === j ? void 0 : j.type]),
             Object(l.useEffect)(( () => {
@@ -32141,7 +32141,7 @@ alert("raedy");
                         setShowCompleteDialoge: O,
                         onConfirmComplete: S,
                         date: T,
-                        refs: A
+                        refs: q
                     })
                 }), Object(B.jsx)(z.a, {
                     lgUp: !0,
@@ -32153,7 +32153,7 @@ alert("raedy");
                             top: 5,
                             borderRadius: "0px"
                         },
-                        onClick: () => q(!N),
+                        onClick: () => A(!N),
                         disableRipple: !0,
                         color: "inherit",
                         children: Object(B.jsx)(a.a, {
@@ -32500,24 +32500,24 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
-          , Ae = Object(o.a)((e => ({
+          , qe = Object(o.a)((e => ({
             root: {
                 padding: e.spacing(1, 2),
                 background: "white"
@@ -32538,7 +32538,7 @@ alert("raedy");
                 color: "#000"
             }
         })));
-        let qe = 0;
+        let Ae = 0;
         const Ce = [{
             code: "c_cpp",
             label: "C",
@@ -32562,44 +32562,31 @@ alert("raedy");
             Object(l.useImperativeHandle)(t, ( () => ({
                 async ProcessProgramming() {
                     let e = !(arguments.length > 0 && void 0 !== arguments[0]) || arguments[0];
-                    _ ? await re(e) : ne(null, {})
+                    S ? await ge(e) : me(null, {})
                 },
-                value: _
+                value: S
             })));
             const {t: o} = Object(D.a)()
               , r = Object(l.useRef)(null)
-              , u = Ae()
+              , u = qe()
               , {question: p={}} = e
               , m = Object(n.a)()
               , g = Object(b.a)(m.breakpoints.up("md"))
-              , [h,v] = Object(l.useState)({})
-              , [f,x] = Object(l.useState)("")
-              , [_,j] = Object(l.useState)("")
-              , y = function(e) {
-                let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "unknown";
-                console.log("\ud83c\udfaf SET VALUE CALLED:", {
-                    source: t,
-                    oldValue: (null === _ || void 0 === _ ? void 0 : _.substring(0, 50)) + ((null === _ || void 0 === _ ? void 0 : _.length) > 50 ? "..." : ""),
-                    oldLength: null === _ || void 0 === _ ? void 0 : _.length,
-                    newValue: (null === e || void 0 === e ? void 0 : e.substring(0, 50)) + ((null === e || void 0 === e ? void 0 : e.length) > 50 ? "..." : ""),
-                    newLength: null === e || void 0 === e ? void 0 : e.length,
-                    language: null === h || void 0 === h ? void 0 : h.code,
-                    questionID: null === p || void 0 === p ? void 0 : p.questionID
-                }),
-                j(e)
-            }
+              , [j,y] = Object(l.useState)({})
               , [w,O] = Object(l.useState)("")
-              , [S,z] = Object(l.useState)(!1)
-              , A = Object(c.b)()
-              , q = Object(d.useParams)()
-              , {taskID: C} = q
-              , N = parseInt(ze, 10) || 15
-              , T = Object(c.c)((e => {
+              , [S,z] = Object(l.useState)("")
+              , [q,A] = Object(l.useState)("")
+              , [C,N] = Object(l.useState)(!1)
+              , T = Object(c.b)()
+              , P = Object(d.useParams)()
+              , {taskID: R} = P
+              , F = parseInt(ze, 10) || 15
+              , U = Object(c.c)((e => {
                 var t, i;
                 return (null === (t = e.examApp.exam) || void 0 === t ? void 0 : t.programmingQuestionInput) && (null === (i = e.examApp.exam) || void 0 === i ? void 0 : i.programmingQuestionInput[null === p || void 0 === p ? void 0 : p.questionID]) || {}
             }
             ))
-              , R = (Object(c.c)((e => {
+              , H = (Object(c.c)((e => {
                 var t, i, a;
                 return e.examApp.exam && (null === (t = e.examApp.exam) || void 0 === t ? void 0 : t.submitAnswerData) && (null === (i = e.examApp.exam) || void 0 === i ? void 0 : i.submitAnswerData) && (null === (a = e.examApp.exam) || void 0 === a ? void 0 : a.submitAnswerData[null === p || void 0 === p ? void 0 : p.questionID]) || {}
             }
@@ -32619,76 +32606,51 @@ alert("raedy");
                 return t.exam
             }
             )))
-              , P = Object(c.c)((e => {
+              , W = Object(c.c)((e => {
                 let {auth: t} = e;
                 return t.user
             }
             ))
-              , F = (Object(c.c)((e => {
+              , V = (Object(c.c)((e => {
                 let {fuse: t} = e;
                 return t.loading.programProcessing
             }
             )),
             Object(c.d)())
-              , [U,H] = Object(l.useState)([])
-              , [W,V] = Object(l.useState)("")
-              , [G,$] = Object(l.useState)(!1)
-              , [Y,Q] = Object(l.useState)(0);
+              , [G,$] = Object(l.useState)([])
+              , [Y,Q] = Object(l.useState)("")
+              , [Z,K] = Object(l.useState)(!1)
+              , [X,ee] = Object(l.useState)(!1)
+              , [te,ie] = Object(l.useState)(null)
+              , [ae,se] = Object(l.useState)(0);
             Object(l.useEffect)(( () => {
                 const e = function(e) {
                     e.stopPropagation(),
                     e.preventDefault()
                 };
-                P.data.email.includes("@vidh.ai") || document.querySelector(".ace_editor").addEventListener("paste", e, !0);
-                const t = T.questionLanguageStorage || {};
-                Object.keys(t).length > 0 ? (ie(t),
-                console.log("\ud83d\udd04 INITIALIZED LOCAL STORAGE FROM REDUX:", Object.keys(t))) : console.log("\ud83d\udd04 INITIALIZED LOCAL STORAGE - REDUX EMPTY, KEEPING LOCAL STATE"),
-                y(T.editorValue, "initial-load"),
-                v(null === T || void 0 === T ? void 0 : T.pLang),
-                x(T.eTheme)
+                W.data.email.includes("@vidh.ai") || document.querySelector(".ace_editor").addEventListener("paste", e, !0),
+                z(U.editorValue),
+                y(null === U || void 0 === U ? void 0 : U.pLang),
+                O(U.eTheme)
             }
             ), []),
             Object(l.useEffect)(( () => {
-                const e = T.questionLanguageStorage || {};
-                ie((t => {
-                    const i = {
-                        ...t
-                    };
-                    let a = !1;
-                    return Object.keys(e).forEach((t => {
-                        var s;
-                        (!i[t] || e[t].lastUpdated > ((null === (s = i[t]) || void 0 === s ? void 0 : s.lastUpdated) || 0)) && (i[t] = e[t],
-                        a = !0)
-                    }
-                    )),
-                    console.log("\ud83d\udd04 SYNCED LOCAL STORAGE WITH REDUX (MERGE ONLY):", {
-                        reduxKeys: Object.keys(e),
-                        localKeys: Object.keys(t),
-                        mergedKeys: Object.keys(i),
-                        hasNewEntries: a
-                    }),
-                    a ? i : t
-                }
-                ))
-            }
-            ), [T.questionLanguageStorage]),
-            Object(l.useEffect)(( () => {
                 var e, t, i;
-                de({
-                    editorValue: _,
-                    lang: h,
-                    them: f
+                Ne({
+                    editorValue: S,
+                    lang: j,
+                    them: w
                 });
-                oe(null, (null === (e = p.answerData) || void 0 === e ? void 0 : e.statusCode) ? p.answerData : {
-                    taskID: C,
+                pe(null, (null === (e = p.answerData) || void 0 === e ? void 0 : e.statusCode) ? p.answerData : {
+                    taskID: R,
                     questionID: null === p || void 0 === p ? void 0 : p.questionID,
-                    languageID: null === h || void 0 === h ? void 0 : h.label,
-                    sourceCode: _,
-                    TestSessionID: null === F || void 0 === F || null === (t = F.getState().examApp) || void 0 === t || null === (i = t.exam) || void 0 === i ? void 0 : i.TestSessionID
+                    languageID: null === j || void 0 === j ? void 0 : j.label,
+                    sourceCode: S,
+                    TestSessionID: null === V || void 0 === V || null === (t = V.getState().examApp) || void 0 === t || null === (i = t.exam) || void 0 === i ? void 0 : i.TestSessionID
                 })
             }
-            ), [h, f, _]);
-            const Z = e => {
+            ), [j, w, S]);
+            const oe = e => {
                 const {codeStubs: t} = (null === p || void 0 === p ? void 0 : p.questionDetails) || {};
                 if (!t || !Array.isArray(t))
                     return "string" === typeof t ? t : "";
@@ -32702,25 +32664,25 @@ alert("raedy");
                     let a = null === e || void 0 === e || null === (t = e.question) || void 0 === t || null === (i = t.questionDetails) || void 0 === i ? void 0 : i.allowedLanguages;
                     a = Array.isArray(a) ? a : a.split(",");
                     const s = Ce.filter((e => a.includes(e.code)));
-                    H(s)
+                    $(s)
                 } catch (n) {
                     console.log(n)
                 }
                 try {
                     var a, s;
-                    "*" === (null === e || void 0 === e || null === (a = e.question) || void 0 === a || null === (s = a.questionDetails) || void 0 === s ? void 0 : s.allowedLanguages)[0] && H(Ce)
+                    "*" === (null === e || void 0 === e || null === (a = e.question) || void 0 === a || null === (s = a.questionDetails) || void 0 === s ? void 0 : s.allowedLanguages)[0] && $(Ce)
                 } catch (n) {
                     console.log(n)
                 }
-                const o = U.find((t => {
+                const o = G.find((t => {
                     var i, a;
                     return t.label === (null === (i = e.question) || void 0 === i || null === (a = i.answerData) || void 0 === a ? void 0 : a.programmingLanguageMasterID)
                 }
-                )) || U[0];
-                v(o)
+                )) || G[0];
+                y(o)
             }
             ), []);
-            const K = e => {
+            const ne = e => {
                 if (!e)
                     return !1;
                 const {codeStubs: t} = (null === p || void 0 === p ? void 0 : p.questionDetails) || {};
@@ -32728,183 +32690,101 @@ alert("raedy");
                     return "string" !== typeof t || e !== t;
                 return !t.some((t => t.codeStub === e))
             }
-              , X = (e, t) => `${e}-${t}`
-              , ee = (e, t) => {
-                var i, a, s;
-                const o = X(e, t)
-                  , n = te[o]
-                  , r = T.questionLanguageStorage || {}
-                  , l = r[o] || null
-                  , c = n || l;
-                return console.log("\ud83d\udfe2 RETRIEVING CODE:", {
-                    key: o,
-                    questionID: e,
-                    languageCode: t,
-                    foundLocal: !!n,
-                    foundRedux: !!l,
-                    usingLocal: !!n,
-                    found: !!c,
-                    code: (null === c || void 0 === c || null === (i = c.code) || void 0 === i ? void 0 : i.substring(0, 100)) + ((null === c || void 0 === c || null === (a = c.code) || void 0 === a ? void 0 : a.length) > 100 ? "..." : ""),
-                    codeLength: null === c || void 0 === c || null === (s = c.code) || void 0 === s ? void 0 : s.length,
-                    isSubmitted: null === c || void 0 === c ? void 0 : c.isSubmitted,
-                    allLocalKeys: Object.keys(te),
-                    allReduxKeys: Object.keys(r),
-                    localStorageState: Object.fromEntries(Object.entries(te).map((e => {
-                        var t;
-                        let[i,a] = e;
-                        return [i, {
-                            codeLength: null === a || void 0 === a || null === (t = a.code) || void 0 === t ? void 0 : t.length,
-                            lastUpdated: null === a || void 0 === a ? void 0 : a.lastUpdated
-                        }]
-                    }
-                    ))),
-                    reduxStorageState: Object.fromEntries(Object.entries(r).map((e => {
-                        var t;
-                        let[i,a] = e;
-                        return [i, {
-                            codeLength: null === a || void 0 === a || null === (t = a.code) || void 0 === t ? void 0 : t.length,
-                            lastUpdated: null === a || void 0 === a ? void 0 : a.lastUpdated
-                        }]
-                    }
-                    )))
-                }),
-                c
+              , re = (e, t) => `${e}-${t}`
+              , le = (e, t) => {
+                const i = re(e, t);
+                return (U.questionLanguageStorage || {})[i] || null
             }
-              , [te,ie] = Object(l.useState)({})
-              , ae = function(e, t, i) {
-                var a, s;
-                let o = arguments.length > 3 && void 0 !== arguments[3] && arguments[3];
-                const n = X(e, t)
-                  , r = T.questionLanguageStorage || {}
-                  , l = r[n] || {};
-                console.log("\ud83d\udd35 STORING CODE:", {
-                    key: n,
-                    questionID: e,
-                    languageCode: t,
-                    code: (null === i || void 0 === i ? void 0 : i.substring(0, 100)) + ((null === i || void 0 === i ? void 0 : i.length) > 100 ? "..." : ""),
-                    codeLength: null === i || void 0 === i ? void 0 : i.length,
-                    isSubmitted: o,
-                    currentEntry: (null === l || void 0 === l || null === (a = l.code) || void 0 === a ? void 0 : a.substring(0, 50)) + ((null === l || void 0 === l || null === (s = l.code) || void 0 === s ? void 0 : s.length) > 50 ? "..." : "")
-                });
-                const c = {
-                    ...l,
+              , ce = function(e, t, i) {
+                let a = arguments.length > 3 && void 0 !== arguments[3] && arguments[3];
+                const s = re(e, t)
+                  , o = U.questionLanguageStorage || {}
+                  , n = o[s] || {}
+                  , r = {
+                    ...n,
                     code: i,
                     languageCode: t,
                     questionID: e,
                     lastUpdated: Date.now(),
-                    isSubmitted: o || l.isSubmitted || !1
+                    isSubmitted: a || n.isSubmitted || !1
                 }
-                  , d = {
-                    ...r,
-                    [n]: c
+                  , l = {
+                    ...o,
+                    [s]: r
                 };
-                ie((e => ({
-                    ...e,
-                    [n]: c
-                }))),
-                console.log("\ud83d\udd35 UPDATED STORAGE STATE:", Object.keys(d).map((e => {
-                    var t, i, a;
-                    return {
-                        key: e,
-                        codeLength: null === (t = d[e]) || void 0 === t || null === (i = t.code) || void 0 === i ? void 0 : i.length,
-                        isSubmitted: null === (a = d[e]) || void 0 === a ? void 0 : a.isSubmitted
-                    }
-                }
-                ))),
-                console.log("\ud83d\udd35 LOCAL STORAGE BACKUP:", Object.keys({
-                    ...te,
-                    [n]: c
-                }).map((e => {
-                    var t, i;
-                    return {
-                        key: e,
-                        codeLength: null === (t = {
-                            ...te,
-                            [n]: c
-                        }[e]) || void 0 === t || null === (i = t.code) || void 0 === i ? void 0 : i.length
-                    }
-                }
-                ))),
-                A(Object(M.d)({
+                T(Object(M.d)({
                     questionID: null === p || void 0 === p ? void 0 : p.questionID,
                     data: {
-                        ...T,
-                        questionLanguageStorage: d,
+                        ...U,
+                        questionLanguageStorage: l,
                         editorValue: i,
-                        pLang: h
+                        pLang: j
                     }
                 }))
-            };
-            Object(l.useEffect)(( () => {
-                var t, i;
-                if (console.log("\u2699\ufe0f INITIAL VALUE EFFECT TRIGGERED:", {
-                    pLangCode: null === h || void 0 === h ? void 0 : h.code,
-                    questionID: null === p || void 0 === p ? void 0 : p.questionID,
-                    currentValue: (null === _ || void 0 === _ ? void 0 : _.substring(0, 50)) + ((null === _ || void 0 === _ ? void 0 : _.length) > 50 ? "..." : ""),
-                    currentValueLength: null === _ || void 0 === _ ? void 0 : _.length
-                }),
-                !(null === h || void 0 === h ? void 0 : h.code) || !(null === p || void 0 === p ? void 0 : p.questionID))
-                    return void console.log("\u2699\ufe0f INITIAL VALUE EFFECT - EARLY RETURN: Missing pLang or questionID");
-                const a = Date.now() - Y;
-                if (console.log("\u2699\ufe0f TIME SINCE MANUAL SWITCH:", `${a}ms`),
-                a < 500)
-                    return void console.log("\u2699\ufe0f INITIAL VALUE EFFECT - EARLY RETURN: Recent manual switch");
-                const s = !_ || "" === _;
-                if (console.log("\u2699\ufe0f SHOULD LOAD INITIAL VALUE:", s),
-                !s)
-                    return void console.log("\u2699\ufe0f INITIAL VALUE EFFECT - EARLY RETURN: Value not empty");
-                console.log("\u2699\ufe0f PROCEEDING WITH INITIAL VALUE LOADING");
-                const o = ee(p.questionID, h.code);
-                if ((null === o || void 0 === o ? void 0 : o.isSubmitted) && (null === o || void 0 === o ? void 0 : o.code))
-                    return console.log("\u2699\ufe0f USING PRIORITY 1: Submitted code"),
-                    void y(o.code, "initial-submitted");
-                if ((null === o || void 0 === o ? void 0 : o.code) && K(o.code))
-                    return console.log("\u2699\ufe0f USING PRIORITY 2: Typed unsaved code"),
-                    void y(o.code, "initial-unsaved");
-                const n = null === (t = e.question) || void 0 === t || null === (i = t.answerData) || void 0 === i ? void 0 : i.sourceCode;
-                if (n && K(n))
-                    return console.log("\u2699\ufe0f USING PRIORITY 3: Legacy source code"),
-                    ae(p.questionID, h.code, n, !0),
-                    void y(n, "initial-legacy");
-                const r = Z(h.code);
-                console.log("\u2699\ufe0f USING PRIORITY 4: Code stub", {
-                    codeStub: (null === r || void 0 === r ? void 0 : r.substring(0, 50)) + ((null === r || void 0 === r ? void 0 : r.length) > 50 ? "..." : ""),
-                    codeStubLength: null === r || void 0 === r ? void 0 : r.length
-                }),
-                y(r || "", "initial-stub")
             }
-            ), [null === p || void 0 === p ? void 0 : p.questionID, null === h || void 0 === h ? void 0 : h.code, Y]),
+              , de = e => {
+                if (!(null === e || void 0 === e ? void 0 : e.code) || !(null === p || void 0 === p ? void 0 : p.questionID) || !S)
+                    return !1;
+                const t = oe(e.code)
+                  , i = S !== t && "" !== S.trim() && ne(S)
+                  , a = ( (e, t) => {
+                    const i = le(e, t);
+                    return (null === i || void 0 === i ? void 0 : i.isSubmitted) || !1
+                }
+                )(p.questionID, e.code);
+                return i && !a
+            }
+            ;
             Object(l.useEffect)(( () => {
                 var t, i;
-                (null === (t = e.question) || void 0 === t || null === (i = t.answerData) || void 0 === i ? void 0 : i.resultDesc) && !g && se()
+                if (!(null === j || void 0 === j ? void 0 : j.code) || !(null === p || void 0 === p ? void 0 : p.questionID))
+                    return;
+                if (Date.now() - ae < 200)
+                    return;
+                const a = le(p.questionID, j.code);
+                if ((null === a || void 0 === a ? void 0 : a.isSubmitted) && (null === a || void 0 === a ? void 0 : a.code))
+                    return void z(a.code);
+                if ((null === a || void 0 === a ? void 0 : a.code) && ne(a.code))
+                    return void z(a.code);
+                const s = null === (t = e.question) || void 0 === t || null === (i = t.answerData) || void 0 === i ? void 0 : i.sourceCode;
+                if (s && ne(s))
+                    return ce(p.questionID, j.code, s, !0),
+                    void z(s);
+                const o = oe(j.code);
+                z(o || "")
+            }
+            ), [null === p || void 0 === p ? void 0 : p.questionID, null === j || void 0 === j ? void 0 : j.code, ae]),
+            Object(l.useEffect)(( () => {
+                var t, i;
+                (null === (t = e.question) || void 0 === t || null === (i = t.answerData) || void 0 === i ? void 0 : i.resultDesc) && !g && ue()
             }
             ), [null === (i = e.question) || void 0 === i ? void 0 : i.answerData]),
             Object(l.useEffect)(( () => {
-                const t = U.find((t => {
+                const t = G.find((t => {
                     var i, a;
                     return t.label === (null === (i = e.question) || void 0 === i || null === (a = i.answerData) || void 0 === a ? void 0 : a.programmingLanguageMasterID)
                 }
-                )) || U[0];
-                v(t)
+                )) || G[0];
+                y(t)
             }
-            ), [U]),
+            ), [G]),
             Object(l.useEffect)(( () => {
-                A(S ? Object(E.e)() : Object(E.b)())
+                T(C ? Object(E.e)() : Object(E.b)())
             }
-            ), [S]);
-            const se = () => {
+            ), [C]);
+            const ue = () => {
                 var e;
                 null === (e = r.current) || void 0 === e || e.scrollIntoView()
             }
             ;
-            function oe(t) {
+            function pe(t) {
                 var i, a;
                 let s = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;
-                const o = [...JSON.parse(JSON.stringify([...null === F || void 0 === F || null === (i = F.getState().examApp) || void 0 === i || null === (a = i.exam) || void 0 === a ? void 0 : a.section]))]
-                  , n = null === R || void 0 === R ? void 0 : R.section.findIndex((e => e.isActiveSection));
+                const o = [...JSON.parse(JSON.stringify([...null === V || void 0 === V || null === (i = V.getState().examApp) || void 0 === i || null === (a = i.exam) || void 0 === a ? void 0 : a.section]))]
+                  , n = null === H || void 0 === H ? void 0 : H.section.findIndex((e => e.isActiveSection));
                 if (n > -1) {
                     var r;
-                    const t = null === R || void 0 === R || null === (r = R.section[n].question) || void 0 === r ? void 0 : r.findIndex((e => e.isActiveQuestion));
+                    const t = null === H || void 0 === H || null === (r = H.section[n].question) || void 0 === r ? void 0 : r.findIndex((e => e.isActiveQuestion));
                     if (t > -1) {
                         if (s && "programming" === o[n].question[t].questionType.toLowerCase()) {
                             var l, c, d;
@@ -32920,18 +32800,18 @@ alert("raedy");
                     }
                 }
                 e.setTimer(0),
-                A(Object(M.p)([...o])),
-                z(!1)
+                T(Object(M.p)([...o])),
+                N(!1)
             }
-            function ne(t) {
+            function me(t) {
                 var i, a;
                 let s = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;
-                A(Object(E.d)());
-                const o = [...JSON.parse(JSON.stringify([...null === F || void 0 === F || null === (i = F.getState().examApp) || void 0 === i || null === (a = i.exam) || void 0 === a ? void 0 : a.section]))]
-                  , n = null === R || void 0 === R ? void 0 : R.section.findIndex((e => e.isActiveSection));
+                T(Object(E.d)());
+                const o = [...JSON.parse(JSON.stringify([...null === V || void 0 === V || null === (i = V.getState().examApp) || void 0 === i || null === (a = i.exam) || void 0 === a ? void 0 : a.section]))]
+                  , n = null === H || void 0 === H ? void 0 : H.section.findIndex((e => e.isActiveSection));
                 if (n > -1) {
                     var r;
-                    const t = null === R || void 0 === R || null === (r = R.section[n].question) || void 0 === r ? void 0 : r.findIndex((e => e.isActiveQuestion));
+                    const t = null === H || void 0 === H || null === (r = H.section[n].question) || void 0 === r ? void 0 : r.findIndex((e => e.isActiveQuestion));
                     if (t > -1) {
                         var l, c;
                         if (s && "programming" === o[n].question[t].questionType.toLowerCase()) {
@@ -32944,11 +32824,11 @@ alert("raedy");
                                 o[n].question[t].answerID = s;
                             null === (d = e.question) || void 0 === d || null === (u = d.answerData) || void 0 === u || u.sourceCode
                         }
-                        t < (null === R || void 0 === R || null === (l = R.section[n].question) || void 0 === l ? void 0 : l.length) - 1 ? (o[n].question[t].isActiveQuestion = !1,
-                        o[n].question[t + 1].isActiveQuestion = !0) : n < (null === R || void 0 === R || null === (c = R.section) || void 0 === c ? void 0 : c.length) - 1 ? (o[n].isActiveSection = !1,
+                        t < (null === H || void 0 === H || null === (l = H.section[n].question) || void 0 === l ? void 0 : l.length) - 1 ? (o[n].question[t].isActiveQuestion = !1,
+                        o[n].question[t + 1].isActiveQuestion = !0) : n < (null === H || void 0 === H || null === (c = H.section) || void 0 === c ? void 0 : c.length) - 1 ? (o[n].isActiveSection = !1,
                         o[n].question[t].isActiveQuestion = !1,
                         o[n + 1].isActiveSection = !0,
-                        o[n + 1].question[0].isActiveQuestion = !0) : A(Object(I.c)({
+                        o[n + 1].question[0].isActiveQuestion = !0) : T(Object(I.c)({
                             message: "This is the Last question",
                             variant: "error",
                             autoHideDuration: 3e3,
@@ -32961,77 +32841,77 @@ alert("raedy");
                     }
                 }
                 e.setTimer(0),
-                A(Object(M.p)([...o])),
-                z(!1),
+                T(Object(M.p)([...o])),
+                N(!1),
                 setTimeout(( () => {
-                    A(Object(E.a)()),
-                    A(Object(E.b)())
+                    T(Object(E.a)()),
+                    T(Object(E.b)())
                 }
                 ), 2e3)
             }
-            const re = async e => {
+            const ge = async e => {
                 try {
                     var t, i, a, s, o, n, r, l, c, d;
-                    if ((null === p || void 0 === p || null === (t = p.answerData) || void 0 === t ? void 0 : t.sourceCode) === _ && e && (null === p || void 0 === p || null === (i = p.answerData) || void 0 === i ? void 0 : i.runID))
-                        return void ne(null, null === p || void 0 === p ? void 0 : p.answerData);
-                    if ((null === p || void 0 === p || null === (a = p.answerData) || void 0 === a ? void 0 : a.sourceCode) === _ && "PE" !== (null === p || void 0 === p || null === (s = p.answerData) || void 0 === s ? void 0 : s.statusCode) && 8 === (null === p || void 0 === p || null === (o = p.answerData) || void 0 === o || null === (n = o.testCaseExecDetails) || void 0 === n || null === (r = n.testResults) || void 0 === r ? void 0 : r.length) && (null === p || void 0 === p || null === (l = p.answerData) || void 0 === l ? void 0 : l.runID))
-                        return void ne(null, null === p || void 0 === p ? void 0 : p.answerData);
-                    z(!0),
-                    O("submit"),
-                    (null === h || void 0 === h ? void 0 : h.code) && (null === p || void 0 === p ? void 0 : p.questionID) && _ && ae(p.questionID, h.code, _, !0);
+                    if ((null === p || void 0 === p || null === (t = p.answerData) || void 0 === t ? void 0 : t.sourceCode) === S && e && (null === p || void 0 === p || null === (i = p.answerData) || void 0 === i ? void 0 : i.runID))
+                        return void me(null, null === p || void 0 === p ? void 0 : p.answerData);
+                    if ((null === p || void 0 === p || null === (a = p.answerData) || void 0 === a ? void 0 : a.sourceCode) === S && "PE" !== (null === p || void 0 === p || null === (s = p.answerData) || void 0 === s ? void 0 : s.statusCode) && 8 === (null === p || void 0 === p || null === (o = p.answerData) || void 0 === o || null === (n = o.testCaseExecDetails) || void 0 === n || null === (r = n.testResults) || void 0 === r ? void 0 : r.length) && (null === p || void 0 === p || null === (l = p.answerData) || void 0 === l ? void 0 : l.runID))
+                        return void me(null, null === p || void 0 === p ? void 0 : p.answerData);
+                    N(!0),
+                    A("submit"),
+                    (null === j || void 0 === j ? void 0 : j.code) && (null === p || void 0 === p ? void 0 : p.questionID) && S && ce(p.questionID, j.code, S, !0);
                     const u = await L.a.post("/task/v1/run", {
-                        taskID: C,
+                        taskID: R,
                         questionID: null === p || void 0 === p ? void 0 : p.questionID,
-                        languageID: null === h || void 0 === h ? void 0 : h.label,
-                        sourceCode: _,
+                        languageID: null === j || void 0 === j ? void 0 : j.label,
+                        sourceCode: S,
                         type: "submit",
-                        TestSessionID: null === F || void 0 === F || null === (c = F.getState().examApp) || void 0 === c || null === (d = c.exam) || void 0 === d ? void 0 : d.TestSessionID
+                        TestSessionID: null === V || void 0 === V || null === (c = V.getState().examApp) || void 0 === c || null === (d = c.exam) || void 0 === d ? void 0 : d.TestSessionID
                     });
-                    z(!0);
+                    N(!0);
                     const m = await u.data;
-                    m.status ? await ce(m.body.runID, null === p || void 0 === p ? void 0 : p.questionID, e) : (z(!1),
-                    ne(null, {
-                        sourceCode: _
+                    m.status ? await ye(m.body.runID, null === p || void 0 === p ? void 0 : p.questionID, e) : (N(!1),
+                    me(null, {
+                        sourceCode: S
                     }))
                 } catch (u) {
-                    z(!1)
+                    N(!1)
                 }
             }
-              , le = e => new Promise((t => setTimeout(t, e)))
-              , ce = async function(e, t) {
+              , he = e => new Promise((t => setTimeout(t, e)))
+              , ye = async function(e, t) {
                 let i = arguments.length > 2 && void 0 !== arguments[2] && arguments[2];
                 try {
                     let a = await L.a.get(`/task/v1/getRunDetails?runID=${e}`);
                     const s = await a.data
                       , o = Number(Oe) || 30;
-                    s.status ? s.body && "PE" === s.body.statusCode ? (await le(1e3 * parseInt(ke, 10) || 2e3),
-                    qe === o ? (qe = 0,
-                    i ? ne(null, {
+                    s.status ? s.body && "PE" === s.body.statusCode ? (await he(1e3 * parseInt(ke, 10) || 2e3),
+                    Ae === o ? (Ae = 0,
+                    i ? me(null, {
                         ...s.body,
                         runID: e
-                    }) : oe(null, {
+                    }) : pe(null, {
                         ...s.body,
                         runID: e
-                    })) : (qe += 1,
-                    a = await ce(e, t, i))) : (i ? ne(null, {
+                    })) : (Ae += 1,
+                    a = await ye(e, t, i))) : (i ? me(null, {
                         ...s.body,
                         runID: e
-                    }) : oe(null, {
+                    }) : pe(null, {
                         ...s.body,
                         runID: e
                     }),
-                    z(!1)) : i ? ne(null, {
-                        sourceCode: _
-                    }) : oe(null, {
-                        sourceCode: _
+                    N(!1)) : i ? me(null, {
+                        sourceCode: S
+                    }) : pe(null, {
+                        sourceCode: S
                     })
                 } catch (a) {
-                    z(!1)
+                    N(!1)
                 }
             }
-              , de = e => {
+              , Ne = e => {
                 let {editorValue: t, lang: i, them: a} = e;
-                A(Object(M.d)({
+                T(Object(M.d)({
                     questionID: null === p || void 0 === p ? void 0 : p.questionID,
                     data: {
                         editorValue: t,
@@ -33040,15 +32920,15 @@ alert("raedy");
                     }
                 }))
             }
-              , ue = function() {
+              , Te = function() {
                 let e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 15;
-                $(!0),
-                V(`${e}Sec`);
+                K(!0),
+                Q(`${e}Sec`);
                 const t = setInterval(( () => {
                     1 === e && (clearInterval(t),
-                    $(!1)),
+                    K(!1)),
                     e -= 1,
-                    V(`${e}Sec`)
+                    Q(`${e}Sec`)
                 }
                 ), 1e3)
             };
@@ -33077,8 +32957,8 @@ alert("raedy");
                                 md: 3,
                                 lg: 3,
                                 children: Object(B.jsx)(we, {
-                                    onChange: x,
-                                    defaultValue: T.eTheme || "tomorrow"
+                                    onChange: O,
+                                    defaultValue: U.eTheme || "tomorrow"
                                 })
                             }), Object(B.jsx)(xe.a, {
                                 item: !0,
@@ -33088,51 +32968,26 @@ alert("raedy");
                                 lg: 3,
                                 children: Object(B.jsx)(je.a, {
                                     fullWidth: !0,
-                                    value: h,
+                                    value: j,
                                     id: "programming-language-selector",
                                     size: "small",
                                     onChange: (e, t) => {
                                         (e => {
-                                            var t, i, a;
-                                            if (!e)
-                                                return;
-                                            console.log("\ud83d\udd04 LANGUAGE SWITCH START:", {
-                                                from: (null === h || void 0 === h ? void 0 : h.code) || "none",
-                                                to: e.code,
-                                                currentValue: (null === _ || void 0 === _ ? void 0 : _.substring(0, 100)) + ((null === _ || void 0 === _ ? void 0 : _.length) > 100 ? "..." : ""),
-                                                currentValueLength: null === _ || void 0 === _ ? void 0 : _.length,
-                                                questionID: null === p || void 0 === p ? void 0 : p.questionID
-                                            }),
-                                            (null === h || void 0 === h ? void 0 : h.code) && (null === p || void 0 === p ? void 0 : p.questionID) && void 0 !== _ && null !== _ && (console.log("\ud83d\udd04 STORING CURRENT CODE BEFORE SWITCH"),
-                                            ae(p.questionID, h.code, _, !1)),
-                                            Q(Date.now()),
-                                            console.log("\ud83d\udd04 MANUAL SWITCH TIMESTAMP SET:", Date.now());
-                                            const s = ee(p.questionID, e.code);
-                                            if (console.log("\ud83d\udd04 CHECKING FOR EXISTING CODE IN NEW LANGUAGE:", {
-                                                newLanguage: e.code,
-                                                foundStored: !!s,
-                                                storedCode: (null === s || void 0 === s || null === (t = s.code) || void 0 === t ? void 0 : t.substring(0, 100)) + ((null === s || void 0 === s || null === (i = s.code) || void 0 === i ? void 0 : i.length) > 100 ? "..." : ""),
-                                                storedCodeLength: null === s || void 0 === s || null === (a = s.code) || void 0 === a ? void 0 : a.length
-                                            }),
-                                            s && void 0 !== s.code)
-                                                console.log("\ud83d\udd04 USING STORED CODE FOR NEW LANGUAGE"),
-                                                y(s.code, "language-switch-stored");
-                                            else {
-                                                const t = Z(e.code);
-                                                console.log("\ud83d\udd04 NO STORED CODE - USING CODE STUB:", {
-                                                    newLanguage: e.code,
-                                                    codeStub: (null === t || void 0 === t ? void 0 : t.substring(0, 100)) + ((null === t || void 0 === t ? void 0 : t.length) > 100 ? "..." : ""),
-                                                    codeStubLength: null === t || void 0 === t ? void 0 : t.length
-                                                }),
-                                                y(t || "", "language-switch-stub")
-                                            }
-                                            v(e),
-                                            console.log("\ud83d\udd04 LANGUAGE SWITCH COMPLETE")
+                                            if (e)
+                                                if (de(j))
+                                                    ie(e),
+                                                    ee(!0);
+                                                else {
+                                                    se(Date.now());
+                                                    const t = oe(e.code);
+                                                    z(t || ""),
+                                                    y(e)
+                                                }
                                         }
                                         )(t)
                                     }
                                     ,
-                                    options: U,
+                                    options: G,
                                     getOptionLabel: e => e && e.label || "",
                                     renderInput: e => Object(B.jsx)(J.a, {
                                         ...e,
@@ -33159,23 +33014,14 @@ alert("raedy");
                             item: !0,
                             children: Object(B.jsx)(be.a, {
                                 placeholder: "",
-                                mode: (null === h || void 0 === h ? void 0 : h.code) || "",
-                                theme: f,
+                                mode: (null === j || void 0 === j ? void 0 : j.code) || "",
+                                theme: w,
                                 name: "editor",
                                 onLoad: () => {}
                                 ,
                                 onChange: e => {
-                                    (null === e || void 0 === e ? void 0 : e.length) > (null === _ || void 0 === _ ? void 0 : _.length) + N && !P.data.email.includes("@vidh.ai") ? (console.log("\ud83d\udcdd CODE CHANGE REJECTED - LIMIT EXCEEDED"),
-                                    y(_, "limit-exceeded")) : (console.log("\ud83d\udcdd CODE CHANGE:", {
-                                        oldLength: null === _ || void 0 === _ ? void 0 : _.length,
-                                        newLength: null === e || void 0 === e ? void 0 : e.length,
-                                        newValue: (null === e || void 0 === e ? void 0 : e.substring(0, 50)) + ((null === e || void 0 === e ? void 0 : e.length) > 50 ? "..." : ""),
-                                        language: null === h || void 0 === h ? void 0 : h.code,
-                                        questionID: null === p || void 0 === p ? void 0 : p.questionID
-                                    }),
-                                    y(e, "user-typing"),
-                                    (null === h || void 0 === h ? void 0 : h.code) && (null === p || void 0 === p ? void 0 : p.questionID) && void 0 !== e && null !== e && (console.log("\ud83d\udcdd STORING CODE ON CHANGE"),
-                                    ae(p.questionID, h.code, e, !1)))
+                                    (null === e || void 0 === e ? void 0 : e.length) > (null === S || void 0 === S ? void 0 : S.length) + F && !W.data.email.includes("@vidh.ai") ? z(S) : (z(e),
+                                    (null === j || void 0 === j ? void 0 : j.code) && (null === p || void 0 === p ? void 0 : p.questionID) && void 0 !== e && ce(p.questionID, j.code, e, !1))
                                 }
                                 ,
                                 fontSize: 14,
@@ -33184,7 +33030,7 @@ alert("raedy");
                                 width: "100%",
                                 height: "300px",
                                 highlightActiveLine: !0,
-                                value: _ || "",
+                                value: S || "",
                                 setOptions: {
                                     enableBasicAutocompletion: !1,
                                     enableLiveAutocompletion: !1,
@@ -33225,22 +33071,22 @@ alert("raedy");
                                         "aria-label": "LOG IN",
                                         value: "legacy",
                                         onClick: () => {
-                                            if ((null === h || void 0 === h ? void 0 : h.code) && (null === p || void 0 === p ? void 0 : p.questionID)) {
-                                                const e = Z(h.code);
-                                                y(e || "", "reset-editor"),
-                                                ae(p.questionID, h.code, e || "", !1)
+                                            if ((null === j || void 0 === j ? void 0 : j.code) && (null === p || void 0 === p ? void 0 : p.questionID)) {
+                                                const e = oe(j.code);
+                                                z(e || ""),
+                                                ce(p.questionID, j.code, e || "", !1)
                                             } else
-                                                y("", "reset-editor-empty")
+                                                z("")
                                         }
                                         ,
-                                        disabled: !_,
+                                        disabled: !S,
                                         children: o("RESET")
-                                    }), " ", "\xa0\xa0", G ? Object(B.jsx)(k.a, {
+                                    }), " ", "\xa0\xa0", Z ? Object(B.jsx)(k.a, {
                                         variant: "outlined",
                                         className: u.secBtn,
                                         "aria-label": "Timer",
-                                        value: W,
-                                        children: W
+                                        value: Y,
+                                        children: Y
                                     }) : Object(B.jsx)(k.a, {
                                         variant: "outlined",
                                         className: u.runBtn,
@@ -33248,33 +33094,33 @@ alert("raedy");
                                         value: "legacy",
                                         onClick: async () => {
                                             var e, t;
-                                            ue(parseInt(null !== Se && void 0 !== Se ? Se : 15, 10)),
-                                            z(!0),
-                                            O("run"),
-                                            z(!0),
-                                            O("submit");
+                                            Te(parseInt(null !== Se && void 0 !== Se ? Se : 15, 10)),
+                                            N(!0),
+                                            A("run"),
+                                            N(!0),
+                                            A("submit");
                                             const i = await L.a.post("/task/v1/run", {
-                                                taskID: C,
+                                                taskID: R,
                                                 questionID: null === p || void 0 === p ? void 0 : p.questionID,
                                                 userId: null,
-                                                languageID: null === h || void 0 === h ? void 0 : h.label,
-                                                sourceCode: _,
+                                                languageID: null === j || void 0 === j ? void 0 : j.label,
+                                                sourceCode: S,
                                                 type: "run",
-                                                TestSessionID: null === F || void 0 === F || null === (e = F.getState().examApp) || void 0 === e || null === (t = e.exam) || void 0 === t ? void 0 : t.TestSessionID
+                                                TestSessionID: null === V || void 0 === V || null === (e = V.getState().examApp) || void 0 === e || null === (t = e.exam) || void 0 === t ? void 0 : t.TestSessionID
                                             })
                                               , a = await i.data;
-                                            a.status && await ce(a.body.runID, null === p || void 0 === p ? void 0 : p.questionID, !1)
+                                            a.status && await ye(a.body.runID, null === p || void 0 === p ? void 0 : p.questionID, !1)
                                         }
                                         ,
-                                        disabled: !_,
+                                        disabled: !S,
                                         children: o("RUN")
                                     }), " ", "\xa0\xa0", Object(B.jsx)(k.a, {
                                         variant: "contained",
                                         className: u.submitBtn,
                                         "aria-label": "LOG IN",
                                         value: "legacy",
-                                        onClick: () => re(!1),
-                                        disabled: !_,
+                                        onClick: () => ge(!1),
+                                        disabled: !S,
                                         children: o("SUBMIT")
                                     })]
                                 })
@@ -33295,6 +33141,45 @@ alert("raedy");
                         },
                         model: null === (a = e.question) || void 0 === a || null === (s = a.answerData) || void 0 === s ? void 0 : s.resultDesc
                     })]
+                }), Object(B.jsxs)(h.a, {
+                    keepMounted: !0,
+                    open: X,
+                    "aria-labelledby": "language-switch-dialog-title",
+                    "aria-describedby": "language-switch-dialog-description",
+                    children: [Object(B.jsx)(_.a, {
+                        id: "language-switch-dialog-title",
+                        children: "Unsaved Code Will Be Lost"
+                    }), Object(B.jsx)(f.a, {
+                        children: Object(B.jsx)(x.a, {
+                            id: "language-switch-dialog-description",
+                            children: "You have unsaved changes in your current code. Switching the language will discard these changes. Do you want to continue?"
+                        })
+                    }), Object(B.jsxs)(v.a, {
+                        children: [Object(B.jsx)(k.a, {
+                            onClick: () => {
+                                ee(!1),
+                                ie(null)
+                            }
+                            ,
+                            color: "primary",
+                            children: "Cancel"
+                        }), Object(B.jsx)(k.a, {
+                            onClick: () => {
+                                if (te) {
+                                    se(Date.now());
+                                    const e = oe(te.code);
+                                    z(e || ""),
+                                    y(te)
+                                }
+                                ee(!1),
+                                ie(null)
+                            }
+                            ,
+                            color: "primary",
+                            autoFocus: !0,
+                            children: "OK"
+                        })]
+                    })]
                 })]
             })
         }
@@ -33303,8 +33188,8 @@ alert("raedy");
           , Ie = i.n(Te)
           , De = i(205)
           , Ee = i.n(De)
-          , Re = i(971)
-          , Pe = i(972)
+          , Pe = i(971)
+          , Re = i(972)
           , Le = i(973);
         Object(o.a)((e => ({
             root: {
@@ -33335,9 +33220,9 @@ alert("raedy");
             return Object(B.jsx)("div", {
                 className: i.root,
                 children: "programming" === (null === a || void 0 === a || null === (e = a.questionType) || void 0 === e ? void 0 : e.toLowerCase()) ? Object(B.jsx)(B.Fragment, {
-                    children: Object(B.jsxs)(Re.a, {
+                    children: Object(B.jsxs)(Pe.a, {
                         className: i.main,
-                        children: [Object(B.jsx)(Pe.a, {
+                        children: [Object(B.jsx)(Re.a, {
                             expandIcon: Object(B.jsx)(Ee.a, {}),
                             "aria-controls": "panel1a-content",
                             id: "panel1a-header",
@@ -33553,22 +33438,22 @@ alert("raedy");
                 WDS_SOCKET_PATH: void 0,
                 WDS_SOCKET_PORT: void 0,
                 FAST_REFRESH: !0,
-                REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-                REACT_APP_COURSE_TRACK_INTERVAL: "3",
-                REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+                REACT_APP_VERSION: "2.1.18",
                 REACT_APP_FAST_REFRESH: "false",
+                REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+                REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
                 REACT_APP_GAME_URL: "blockly-games/appengine",
-                REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-                REACT_APP_NUMBER_OF_RETRY: "20",
-                REACT_APP_NUMBER_OF_WARNINGS: "400",
                 REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-                REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+                REACT_APP_NUMBER_OF_RETRY: "20",
                 REACT_APP_RUN_INTERVAL: "3",
+                REACT_APP_NUMBER_OF_WARNINGS: "400",
+                REACT_APP_URL_MONITORING_INERVAL: "60",
+                REACT_APP_COURSE_TRACK_INTERVAL: "3",
                 REACT_APP_SECTION_TIME_END_WARNING: "1",
                 REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
                 REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-                REACT_APP_URL_MONITORING_INERVAL: "60",
-                REACT_APP_VERSION: "2.1.18"
+                REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+                REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
             })
               , s = parseInt(a, 10) || 15
               , [o,n] = Object(l.useState)(e.ans.toString());
@@ -34081,7 +33966,7 @@ alert("raedy");
                         onClick: () => {
                             e.setShowErrorDialoge(!1),
                             a(Object(M.e)()),
-                            a(Object(R.a)()),
+                            a(Object(P.a)()),
                             e.setIsDirty(!1),
                             setTimeout(( () => {
                                 s.replace("/academy/courses")
@@ -34102,22 +33987,22 @@ alert("raedy");
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             FAST_REFRESH: !0,
-            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
-            REACT_APP_COURSE_TRACK_INTERVAL: "3",
-            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_VERSION: "2.1.18",
             REACT_APP_FAST_REFRESH: "false",
+            REACT_APP_ESLINT_NO_DEV_ERRORS: "true",
+            REACT_APP_BASE_URL: "https://api.lms.talentely.com/api",
             REACT_APP_GAME_URL: "blockly-games/appengine",
-            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
-            REACT_APP_NUMBER_OF_RETRY: "20",
-            REACT_APP_NUMBER_OF_WARNINGS: "400",
             REACT_APP_PARTIAL_SUBMIT_TIMEOUT: "60",
-            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/",
+            REACT_APP_NUMBER_OF_RETRY: "20",
             REACT_APP_RUN_INTERVAL: "3",
+            REACT_APP_NUMBER_OF_WARNINGS: "400",
+            REACT_APP_URL_MONITORING_INERVAL: "60",
+            REACT_APP_COURSE_TRACK_INTERVAL: "3",
             REACT_APP_SECTION_TIME_END_WARNING: "1",
             REACT_APP_STUDENT_BASE_URL: "https://api.lms.talentely.com/api/",
             REACT_APP_TEACHER_BASE_URL: "https://teacher.lms.talentely.com/api",
-            REACT_APP_URL_MONITORING_INERVAL: "60",
-            REACT_APP_VERSION: "2.1.18"
+            REACT_APP_INSTITUTE_BASE_URL: "https://institute.lms.talentely.com/api/",
+            REACT_APP_PROGRAMMING_URL: "https://api.lms.talentely.com/api/"
         })
           , tt = parseInt(et, 10) || 1;
         let it, at = N()();
@@ -34263,20 +34148,27 @@ alert("raedy");
               , [Oe,ke] = Object(l.useState)(0)
               , Se = parseInt(Ke, 10) || 180
               , ze = Object(d.useParams)()
-              , Ae = () => {
-                
+              , qe = () => {
+                if (!document.fullscreenElement) {
+                    var e, t;
+                    const i = (null === (e = Y.getState().examApp.exam) || void 0 === e ? void 0 : e.offScreenCount) + 1;
+                    i > (null === (t = Y.getState().examApp.exam) || void 0 === t ? void 0 : t.OffscreenLimit) ? (ue(!1),
+                    F(Object(M.o)("ASF")),
+                    Ne()) : (F(Object(M.i)(i)),
+                    oe(!0))
+                }
             }
             ;
             Object(l.useEffect)(( () => {
                 var e;
                 return ((null === (e = Y.getState().examApp.exam) || void 0 === e ? void 0 : e.OffscreenLimit) || 0) && (oe(!0),
-                document.addEventListener("fullscreenchange", Ae)),
+                document.addEventListener("fullscreenchange", qe)),
                 () => {
-                    document.removeEventListener("fullscreenchange", Ae)
+                    document.removeEventListener("fullscreenchange", qe)
                 }
             }
             ), [null === (i = Y.getState().examApp.exam) || void 0 === i ? void 0 : i.OffscreenLimit]);
-            const qe = Object(l.useCallback)(( () => {
+            const Ae = Object(l.useCallback)(( () => {
                 window.addEventListener("focus", (function() {
                    
                 }
@@ -34285,9 +34177,7 @@ alert("raedy");
             ))
               , Ce = Object(l.useCallback)(( () => {
                 window.addEventListener("blur", (function() {
-                    //var e, t, i;
-                    //0 !== (null === (e = Y.getState().examApp.exam) || void 0 === e ? void 0 : e.Warnings) && (nt = Date.now(),
-                    //(null === (t = Y.getState().examApp.exam) || void 0 === t ? void 0 : t.inActive.length) < (null === (i = Y.getState().examApp.exam) || void 0 === i ? void 0 : i.Warnings) && ae(0))
+                   
                 }
                 ))
             }
@@ -34295,7 +34185,7 @@ alert("raedy");
             function Ne() {
                 var e, t;
                 ue(!1),
-                Object(P.l)(),
+                Object(R.l)(),
                 ve(!1);
                 const i = [];
                 try {
@@ -34369,7 +34259,7 @@ alert("raedy");
             ), [Z]),
             Object(l.useEffect)(( () => {
                 Ce(),
-                qe(),
+                Ae(),
                 at = N()(),
                 g()(document).ready((function() {
                     g()("#fuse-toolbar").css({
@@ -34378,12 +34268,12 @@ alert("raedy");
                     g()("#fuse-footer").css({
                         display: "none"
                     }),
-                    F(I ? Object(q.d)() : Object(q.c)())
+                    F(I ? Object(A.d)() : Object(A.c)())
                 }
                 )),
                 null != (null === Q || void 0 === Q ? void 0 : Q.testResult) && (xe(!1),
                 F(Object(M.e)()),
-                F(Object(R.a)()),
+                F(Object(P.a)()),
                 ue(!1),
                 C.replace("/academy/courses"));
                 const e = setInterval(( () => {
@@ -34400,7 +34290,7 @@ alert("raedy");
                     g()("#fuse-footer").css({
                         display: "block"
                     }),
-                    F(I ? Object(q.d)() : Object(q.c)())
+                    F(I ? Object(A.d)() : Object(A.c)())
                 }
             }
             ), []),
@@ -34639,7 +34529,7 @@ alert("raedy");
                                                     children: "menu"
                                                 })
                                             }) : null]
-                                        }), "test" === (null === Q || void 0 === Q ? void 0 : Q.type) ? Object(B.jsx)(A.a, {
+                                        }), "test" === (null === Q || void 0 === Q ? void 0 : Q.type) ? Object(B.jsx)(q.a, {
                                             style: {
                                                 width: "300px"
                                             },
@@ -34678,7 +34568,7 @@ alert("raedy");
                                 setShowCompleteDialoge: ve
                             }), Object(B.jsx)(z.a, {
                                 lgUp: !0,
-                                children: "test" === (null === Q || void 0 === Q ? void 0 : Q.type) ? Object(B.jsx)(A.a, {
+                                children: "test" === (null === Q || void 0 === Q ? void 0 : Q.type) ? Object(B.jsx)(q.a, {
                                     style: {
                                         width: "300px"
                                     },
@@ -34763,7 +34653,7 @@ alert("raedy");
                         id: "alert-dialog-title",
                         children: r("EXAM_WARNING_TITLE")
                     }), Object(B.jsx)(f.a, {
-                        children: (null === Q || void 0 === Q ? void 0 : Q.offScreenCount) > 10000000 ? Object(B.jsxs)(x.a, {
+                        children: (null === Q || void 0 === Q ? void 0 : Q.offScreenCount) > 0 ? Object(B.jsxs)(x.a, {
                             id: "alert-dialog-description",
                             children: [Object(B.jsx)("p", {
                                 children: "You have exit from full screen mode."
@@ -34785,13 +34675,7 @@ alert("raedy");
                             onClick: () => {
                                 ( () => {
                                     const e = document.documentElement;
-                                    document.fullscreenElement || e.requestFullscreen().then(( () => {
-                                        console.log("Fullscreen mode entered")
-                                    }
-                                    )).catch((e => {
-                                        console.error(`Failed to enable fullscreen mode: ${e.message} (${e.name})`)
-                                    }
-                                    ))
+                                    
                                 }
                                 )(),
                                 oe(!1)
